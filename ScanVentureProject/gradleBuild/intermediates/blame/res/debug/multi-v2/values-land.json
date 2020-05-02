@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\\TensorFlow-Object-Detection-and-Classification-Android-Example-master\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ariel\\.gradle\\caches\\transforms-2\\files-2.1\\2c805612316030f9ada5f6e0607195d4\\appcompat-v7-25.4.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Good Guy\\.gradle\\caches\\transforms-2\\files-2.1\\08ba82c2f5bedac5eb1c762f5c84573d\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TensorFlow-Object-Detection-and-Classification-Android-Example-master.iml" filepath="$PROJECT_DIR$/TensorFlow-Object-Detection-and-Classification-Android-Example-master.iml" group="TensorFlow-Object-Detection-and-Classification-Android-Example-master" />
+      <module fileurl="file://$PROJECT_DIR$/ScanVentureProject.iml" filepath="$PROJECT_DIR$/ScanVentureProject.iml" group="ScanVentureProject" />
     </modules>
   </component>
 </project>

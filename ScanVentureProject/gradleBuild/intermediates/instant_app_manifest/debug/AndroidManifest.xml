@@ -9,6 +9,8 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="28" />
 
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera" />
@@ -20,18 +22,17 @@
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@drawable/icon2"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="false"
-        android:testOnly="true"
         android:theme="@style/MaterialTheme" >
-        <activity android:name="org.tensorflow.demo.DetectorActivity" >
-        </activity>
-        <activity android:name="org.tensorflow.demo.CameraActivity" >
-        </activity>
+        <activity android:name="org.tensorflow.demo.Login" />
+        <activity android:name="org.tensorflow.demo.DetectorActivity" />
+        <activity android:name="org.tensorflow.demo.CameraActivity" />
         <activity
             android:name="org.tensorflow.demo.Start"
             android:screenOrientation="fullSensor" >
@@ -41,10 +42,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
-            android:name="android.support.VERSION"
-            android:value="25.4.0" />
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

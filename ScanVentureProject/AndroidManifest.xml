@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.tensorflow.demo">
+    <uses-permission android:name="android.permission.INTERNET"> </uses-permission>
 
-    <uses-sdk
-        android:targetSdkVersion="23" />
+    <uses-sdk android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -17,15 +17,15 @@
         android:largeHeap="true"
         android:supportsRtl="false"
         android:theme="@style/MaterialTheme">
-        <activity android:name=".DetectorActivity">
-        </activity>
-        <activity android:name=".CameraActivity">
-        </activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".DetectorActivity"></activity>
+        <activity android:name=".CameraActivity"></activity>
         <activity
             android:name=".Start"
             android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
