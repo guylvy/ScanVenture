@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\\TensorFlow-Object-Detection-and-Classification-Android-Example-master\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ariel\\.gradle\\caches\\transforms-2\\files-2.1\\2c805612316030f9ada5f6e0607195d4\\appcompat-v7-25.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
@@ -14,13 +14,13 @@
                     }
                 },
                 {
-                    "source": "D:\\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\\TensorFlow-Object-Detection-and-Classification-Android-Example-master\\res\\values-sw600dp\\template-dimens.xml",
+                    "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\values-sw600dp\\template-dimens.xml",
                     "from": {
                         "startLines": "20,21",
                         "startColumns": "4,4",
-                        "startOffsets": "669,737",
+                        "startOffsets": "689,758",
                         "endColumns": "67,67",
-                        "endOffsets": "732,800"
+                        "endOffsets": "752,821"
                     },
                     "to": {
                         "startLines": "10,11",
@@ -31,14 +31,14 @@
                     }
                 },
                 {
-                    "source": "D:\\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\\TensorFlow-Object-Detection-and-Classification-Android-Example-master\\res\\values-sw600dp\\template-styles.xml",
+                    "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\values-sw600dp\\template-styles.xml",
                     "from": {
                         "startLines": "18",
                         "startColumns": "4",
-                        "startOffsets": "634",
+                        "startOffsets": "652",
                         "endLines": "22",
                         "endColumns": "12",
-                        "endOffsets": "874"
+                        "endOffsets": "896"
                     },
                     "to": {
                         "startLines": "12",

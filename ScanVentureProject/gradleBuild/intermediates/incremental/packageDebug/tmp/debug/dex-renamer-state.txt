@@ -1,7 +1,7 @@
-#Fri May 01 11:29:24 IDT 2020
-base.0=D\:\\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\\TensorFlow-Object-Detection-and-Classification-Android-Example-master\\gradleBuild\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Sat May 02 20:12:28 IDT 2020
+base.0=D\:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\\TensorFlow-Object-Detection-and-Classification-Android-Example-master\\gradleBuild\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=D\:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

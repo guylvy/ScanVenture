@@ -575,12 +575,14 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable apple
 drawable background
 drawable border
 drawable cogs
 drawable ic_action_info
 drawable ic_launcher
 drawable icon2
+drawable lamp
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -593,9 +595,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable screw_driver
 drawable tile
 font baumans
-id Background
 id action0
 id action_bar
 id action_bar_activity_content
@@ -653,6 +655,9 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView2
+id imageView3
+id imageView4
 id info
 id invisible
 id left
@@ -677,6 +682,7 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
+id result_text
 id right
 id right_icon
 id right_side
@@ -727,7 +733,6 @@ id topPanel
 id tracking_overlay
 id up
 id useLogo
-id welcome_text
 id withText
 id wrap
 id wrap_content
@@ -762,8 +767,10 @@ layout abc_screen_toolbar
 layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
+layout activity_after_stage
 layout activity_camera
-layout activity_start
+layout activity_tutorial
+layout activity_welcome
 layout camera_connection_fragment_tracking
 layout list_text_item
 layout notification_action
@@ -826,9 +833,8 @@ string description_info
 string request_permission
 string scanny_intro_text
 string search_menu_title
-string start_button
 string status_bar_notification_info_overflow
-string title_welcome
+string tutorial_text
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

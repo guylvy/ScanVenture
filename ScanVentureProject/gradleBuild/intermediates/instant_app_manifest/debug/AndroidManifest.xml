@@ -28,12 +28,12 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/MaterialTheme" >
-        <activity android:name="org.tensorflow.demo.DetectorActivity" >
-        </activity>
-        <activity android:name="org.tensorflow.demo.CameraActivity" >
-        </activity>
+        <activity android:name="org.tensorflow.demo.AfterStageActivity" />
+        <activity android:name="org.tensorflow.demo.TutorialActivity" />
+        <activity android:name="org.tensorflow.demo.DetectorActivity" />
+        <activity android:name="org.tensorflow.demo.CameraActivity" />
         <activity
-            android:name="org.tensorflow.demo.Start"
+            android:name="org.tensorflow.demo.WelcomeActivity"
             android:screenOrientation="fullSensor" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

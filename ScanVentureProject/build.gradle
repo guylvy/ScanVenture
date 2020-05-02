@@ -150,11 +150,7 @@ android {
 
 task buildNativeBazel(type: Exec) {
     workingDir '../../..'
-    commandLine bazelLocation, 'build', '-c', 'opt', \
- 'tensorflow/examples/android:tensorflow_native_libs', \
- '--crosstool_top=//externa l:android/crosstool',  \
-         '--cpu=' + cpuType,  \
-         '--host_cross tool_top=@baz el_tools//tools/cpp:toolchain'
+    commandLine bazelLocation, 'build', '-c', 'opt', 'tensorflow/examples/android:tensorflow_native_libs', '--cross tool_top=//externa l:android/crosstool', '--cpu=' + cpuType, '--host_ cross tool_top=@b az el_tools//tools/cpp:toolchain'
 }
 
 task buildNativeMake(type: Exec) {
@@ -165,11 +161,11 @@ task buildNativeMake(type: Exec) {
     workingDir '../../..'
     commandLine 'tensorflow/contrib/makefile/build_all_android.sh',  \
          '-s',  \
-         'tensorf low/c ontrib/makefi le/sub_makefiles/android/Makefile.in',  \
+         'tensorf   low /c ontrib/mak efi le/sub_makefiles/android/Makefile.in',  \
          '-t',  \
-         'libtens orflo w_inference.s o libtensorflow_demo.so all'  \
+         'libtens   orf lo w_inferenc e.s o libtensorflow_demo.so all'  \
          , '-a', cpuType  \
-         //, '-T'  //  Uncomment to skip protobuf and speed up subsequent builds.
+         //, '-T'  //   Uncomment to skip protobuf and speed up subsequent builds.
 }
 
 
@@ -184,16 +180,17 @@ task copyNativeLibs(type: Copy) {
 
 tasks.whenTaskAdded
         { task ->
-    if (nativeBuildSystem ==
-            'bazel' || nativeBuildSystem == 'makefile') {
-        if (task.name ==
+    if (nativeBuildSystem == 'bazel' || nativeBuildSystem == 'makefile') {
+        if(task.name ==
                 'assembleDebug') {
-            task.dependsOn 'copyNativeLibs'
+            task.dependsOn
+                    'copyNativeLibs'
         }
         if (
                 task.name == 'assembleRelease') {
             task.
-                    dependsOn 'copyNativeLibs'
+                    dependsOn
+                            'copyNativeLibs'
                 }
             }
         }

@@ -20,6 +20,7 @@ import android.Manifest;
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.hardware.camera2.CameraAccessException;
@@ -32,6 +33,7 @@ import android.media.ImageReader;
 import android.media.ImageReader.OnImageAvailableListener;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Trace;
@@ -45,6 +47,7 @@ import android.widget.Toast;
 
 import java.nio.ByteBuffer;
 import java.util.Random;
+import java.util.Timer;
 
 import org.tensorflow.demo.env.ImageUtils;
 import org.tensorflow.demo.env.Logger;
@@ -74,13 +77,28 @@ public abstract class CameraActivity extends Activity
 
   private Runnable postInferenceCallback;
   private Runnable imageConverter;
+  private Timer timer;
+  private int timeout = 10;
   
   @Override
   protected void onCreate(final Bundle savedInstanceState) {
     LOGGER.d("onCreate " + this);
     super.onCreate(null);
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+    new CountDownTimer(timeout*1000,1000) {
+      @Override
+      public void onTick(long l) {
+        // Maybe announce how many seconds left? l/1000
+      }
 
+      public void onFinish() {
+        if (!getIntent().getExtras().containsKey("disable_countdown")) {
+          Intent i = new Intent(CameraActivity.this, AfterStageActivity.class);
+          i.putExtra("Result", "Failure");
+          startActivity(i);
+        }
+      }
+    }.start();
     setContentView(R.layout.activity_camera);
 
 

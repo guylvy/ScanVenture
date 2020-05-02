@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\\TensorFlow-Object-Detection-and-Classification-Android-Example-master\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ariel\\.gradle\\caches\\transforms-2\\files-2.1\\2c805612316030f9ada5f6e0607195d4\\appcompat-v7-25.4.0\\res\\values-ko\\values-ko.xml",

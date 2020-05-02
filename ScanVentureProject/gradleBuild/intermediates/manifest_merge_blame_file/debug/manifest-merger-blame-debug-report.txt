@@ -5,67 +5,71 @@
 5    android:versionName="1" >
 6
 7    <uses-sdk
-7-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:5:5-6:41
+7-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:5:5-47
 8        android:minSdkVersion="28"
-8-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:5:5-6:41
+8-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:5:5-47
 9        android:targetSdkVersion="28" />
-9-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:6:9-38
+9-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:5:15-44
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:8:5-65
-11-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:8:22-62
+11-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:7:5-65
+11-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:7:22-62
 12
 13    <uses-feature android:name="android.hardware.camera" />
-13-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:10:5-60
-13-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:10:19-57
+13-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:9:5-60
+13-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:9:19-57
 14    <uses-feature android:name="android.hardware.camera.autofocus" />
-14-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:11:5-70
-14-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:11:19-67
+14-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:10:5-70
+14-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:10:19-67
 15
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 19
 20    <application
-20-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:13:5-32:19
+20-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:12:5-32:19
 21        android:allowBackup="true"
-21-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:14:9-35
+21-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:13:9-35
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:icon="@drawable/icon2"
-24-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:15:9-39
+24-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:14:9-39
 25        android:label="@string/app_name"
-25-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:16:9-41
+25-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:15:9-41
 26        android:largeHeap="true"
-26-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:17:9-33
+26-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:16:9-33
 27        android:supportsRtl="false"
-27-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:18:9-36
+27-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:17:9-36
 28        android:testOnly="true"
 29        android:theme="@style/MaterialTheme" >
-29-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:19:9-45
-30        <activity android:name="org.tensorflow.demo.DetectorActivity" >
-30-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:20:9-21:20
-30-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:20:19-51
-31        </activity>
-32        <activity android:name="org.tensorflow.demo.CameraActivity" >
-32-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:22:9-23:20
-32-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:22:19-49
-33        </activity>
+29-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:18:9-45
+30        <activity android:name="org.tensorflow.demo.AfterStageActivity" />
+30-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:19:9-65
+30-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:19:19-53
+31        <activity android:name="org.tensorflow.demo.TutorialActivity" />
+31-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:20:9-63
+31-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:20:19-51
+32        <activity android:name="org.tensorflow.demo.DetectorActivity" />
+32-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:21:9-63
+32-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:21:19-51
+33        <activity android:name="org.tensorflow.demo.CameraActivity" />
+33-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:9-61
+33-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:19-49
 34        <activity
-34-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:24:9-31:20
-35            android:name="org.tensorflow.demo.Start"
-35-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:25:13-34
+34-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:23:9-31:20
+35            android:name="org.tensorflow.demo.WelcomeActivity"
+35-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:24:13-44
 36            android:screenOrientation="fullSensor" >
-36-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:26:13-51
+36-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:25:13-51
 37            <intent-filter>
-37-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:27:13-30:29
+37-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:26:13-30:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:28:17-69
-38-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:28:25-66
+38-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:27:17-69
+38-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:27:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:29:17-77
-40-->D:\TensorFlow-Object-Detection-and-Classification-Android-Example-V0\TensorFlow-Object-Detection-and-Classification-Android-Example-master\AndroidManifest.xml:29:27-74
+40-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:29:17-77
+40-->D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:29:27-74
 41            </intent-filter>
 42        </activity>
 43

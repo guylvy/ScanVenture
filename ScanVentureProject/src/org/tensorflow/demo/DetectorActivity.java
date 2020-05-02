@@ -16,6 +16,7 @@
 
 package org.tensorflow.demo;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
@@ -26,6 +27,7 @@ import android.graphics.Paint.Style;
 import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.media.ImageReader.OnImageAvailableListener;
+import android.os.Bundle;
 import android.os.SystemClock;
 import android.util.Size;
 import android.util.TypedValue;
@@ -86,7 +88,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   private static final DetectorMode MODE = DetectorMode.TF_OD_API;
 
   // Minimum detection confidence to track a detection.
-  private static final float MINIMUM_CONFIDENCE_TF_OD_API = 0.6f;
+  private static final float MINIMUM_CONFIDENCE_TF_OD_API = 0.9f;
   private static final float MINIMUM_CONFIDENCE_MULTIBOX = 0.1f;
   private static final float MINIMUM_CONFIDENCE_YOLO = 0.25f;
 
@@ -315,13 +317,17 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
             for (final Classifier.Recognition result : results) {
               final RectF location = result.getLocation();
               if (location != null && result.getConfidence() >= minimumConfidence) {
-                canvas.drawRect(location, paint);
-                if (result.getTitle().equals("laptop")) {
-                  finish();
+                //canvas.drawRect(location, paint);
+                if (getIntent().getExtras().containsKey("Target") && getIntent().getStringExtra("Target").equals(result.getTitle())) {
+                  LOGGER.i("Tracked target \"" + result.getTitle() + "\" at " + result.getConfidence() + "% confidence.");
+                  getIntent().putExtra("disable_countdown",true);
+                  Intent i = new Intent(DetectorActivity.this, AfterStageActivity.class);
+                  i.putExtra("Result","Success!");
+                  startActivity(i);
                 }
-                cropToFrameTransform.mapRect(location);
+                /*cropToFrameTransform.mapRect(location);
                 result.setLocation(location);
-                mappedRecognitions.add(result);
+                mappedRecognitions.add(result);*/
               }
             }
 
