@@ -46,72 +46,74 @@
 29-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:17:9-33
 30        android:supportsRtl="false"
 30-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:18:9-36
-31        android:theme="@style/MaterialTheme" >
-31-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:19:9-45
-32        <activity android:name="org.tensorflow.demo.Login" />
-32-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:9-52
-32-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:19-40
-33        <activity android:name="org.tensorflow.demo.DetectorActivity" />
-33-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:21:9-63
-33-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:21:19-51
-34        <activity android:name="org.tensorflow.demo.CameraActivity" />
-34-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:9-61
-34-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:19-49
-35        <activity
-35-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:9-31:20
-36            android:name="org.tensorflow.demo.Start"
-36-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:24:13-34
-37            android:screenOrientation="fullSensor" >
-37-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:25:13-51
-38            <intent-filter>
-38-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:13-30:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:17-69
-39-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:17-77
-41-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:27-74
-42            </intent-filter>
-43        </activity>
-44        <activity
-44-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
-45            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-45-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
-46            android:excludeFromRecents="true"
-46-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
-47            android:exported="false"
-47-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
-48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-48-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
-49        <!--
-50            Service handling Google Sign-In user revocation. For apps that do not integrate with
-51            Google Sign-In, this service will never be started.
-52        -->
-53        <service
-53-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
-54            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-54-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
-55            android:exported="true"
-55-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
-56            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-56-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
-57
-58        <activity
-58-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a2399b65b3eba8cde681337d8542635a\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-59-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a2399b65b3eba8cde681337d8542635a\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-60            android:exported="false"
-60-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a2399b65b3eba8cde681337d8542635a\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-61-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a2399b65b3eba8cde681337d8542635a\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-62
-63        <meta-data
-63-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a659aded2c58eba1b6c220babccbe25a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-64            android:name="com.google.android.gms.version"
-64-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a659aded2c58eba1b6c220babccbe25a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-65            android:value="@integer/google_play_services_version" />
-65-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a659aded2c58eba1b6c220babccbe25a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-66    </application>
-67
-68</manifest>
+31        android:testOnly="true"
+32        android:theme="@style/MaterialTheme" >
+32-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:19:9-45
+33        <activity android:name="org.tensorflow.demo.Login" >
+33-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:9-25:20
+33-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:19-40
+34            <intent-filter>
+34-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:21:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:17-69
+35-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:17-77
+37-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="org.tensorflow.demo.DetectorActivity" />
+40-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:9-63
+40-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:19-51
+41        <activity android:name="org.tensorflow.demo.CameraActivity" />
+41-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:9-61
+41-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:19-49
+42        <activity
+42-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:28:9-31:20
+43            android:name="org.tensorflow.demo.Start"
+43-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:13-34
+44            android:screenOrientation="fullSensor" >
+44-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:30:13-51
+45        </activity>
+46        <activity
+46-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+47            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+47-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+48            android:excludeFromRecents="true"
+48-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+49            android:exported="false"
+49-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+51        <!--
+52            Service handling Google Sign-In user revocation. For apps that do not integrate with
+53            Google Sign-In, this service will never be started.
+54        -->
+55        <service
+55-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+56            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+56-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+57            android:exported="true"
+57-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+58            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+58-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\3ca3b5804917783ca649839164b6b2e3\play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+59
+60        <activity
+60-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a2399b65b3eba8cde681337d8542635a\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a2399b65b3eba8cde681337d8542635a\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a2399b65b3eba8cde681337d8542635a\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a2399b65b3eba8cde681337d8542635a\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a659aded2c58eba1b6c220babccbe25a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a659aded2c58eba1b6c220babccbe25a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\a659aded2c58eba1b6c220babccbe25a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+68    </application>
+69
+70</manifest>

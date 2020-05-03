@@ -733,7 +733,6 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
-id button_start
 id center
 id center_horizontal
 id center_vertical
@@ -774,7 +773,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id info
 id invisible
 id italic
@@ -847,14 +845,13 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id title_text
 id top
 id topPanel
 id tracking_overlay
 id uniform
 id up
 id useLogo
-id welcome_text
+id welcomeText
 id wide
 id withText
 id wrap
@@ -953,6 +950,7 @@ string activity_name_speech
 string activity_name_stylize
 string app_name
 string camera_error
+string client_id
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title

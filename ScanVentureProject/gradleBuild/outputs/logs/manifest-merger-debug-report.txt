@@ -184,33 +184,33 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Go
 	android:theme
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:19:9-45
 activity#org.tensorflow.demo.Login
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:9-52
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:9-25:20
 	android:name
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:19-40
-activity#org.tensorflow.demo.DetectorActivity
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:21:9-63
-	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:21:19-51
-activity#org.tensorflow.demo.CameraActivity
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:9-61
-	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:19-49
-activity#org.tensorflow.demo.Start
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:9-31:20
-	android:screenOrientation
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:25:13-51
-	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:24:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:13-30:29
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:17-69
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:25-66
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:17-77
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:27-74
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:27-74
+activity#org.tensorflow.demo.DetectorActivity
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:9-63
+	android:name
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:19-51
+activity#org.tensorflow.demo.CameraActivity
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:9-61
+	android:name
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:19-49
+activity#org.tensorflow.demo.Start
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:28:9-31:20
+	android:screenOrientation
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:30:13-51
+	android:name
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:13-34
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-34:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
