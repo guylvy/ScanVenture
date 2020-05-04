@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">330523070311-c0q7gvlghgq9j75vplahm8l52g5g2tso.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://scanventure.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">330523070311</string>
+    <string name="google_api_key" translatable="false">AIzaSyA_WTSIUjq4QvD-AmorBQs3XhI1rWpTCZY</string>
+    <string name="google_app_id" translatable="false">1:330523070311:android:76d856ed170bdf4da069c2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA_WTSIUjq4QvD-AmorBQs3XhI1rWpTCZY</string>
+    <string name="google_storage_bucket" translatable="false">scanventure.appspot.com</string>
+    <string name="project_id" translatable="false">scanventure</string>
+</resources>

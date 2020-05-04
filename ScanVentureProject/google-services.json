@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "330523070311",
+    "firebase_url": "https://scanventure.firebaseio.com",
+    "project_id": "scanventure",
+    "storage_bucket": "scanventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330523070311:android:76d856ed170bdf4da069c2",
+        "android_client_info": {
+          "package_name": "org.tensorflow.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330523070311-u7t0je4j07jdam1toivmupidd6vsredt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.demo",
+            "certificate_hash": "5a7ac8f4505f55e2a44232c4473efccf99240b39"
+          }
+        },
+        {
+          "client_id": "330523070311-c0q7gvlghgq9j75vplahm8l52g5g2tso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_WTSIUjq4QvD-AmorBQs3XhI1rWpTCZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330523070311-c0q7gvlghgq9j75vplahm8l52g5g2tso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

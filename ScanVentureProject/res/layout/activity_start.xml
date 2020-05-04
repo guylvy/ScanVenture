@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     tools:context="org.tensorflow.demo.Start"
     android:background="@drawable/background"
-
-
-
-
-
     >
 
     <TextView

@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Debug;
+import android.os.Message;
 import android.util.DebugUtils;
 import android.util.Log;
 import android.view.View;
@@ -23,7 +25,17 @@ import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.Status;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.GoogleAuthProvider;
+
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
 
 import java.io.Console;
 import java.io.FileDescriptor;
@@ -36,17 +48,21 @@ public class Login extends Activity implements View.OnClickListener{
     SignInButton signInButton;
     private static final int SIGN_IN = 1;
     GoogleSignInClient mGoogleSignInClient;
+    private FirebaseAuth mAuth;
     private String tkn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FirebaseApp.initializeApp(this);
         setContentView(R.layout.activity_login);
 
         //Set dimensions of Google's sign in button - Standard
         signInButton = findViewById(R.id.googleLoginBtn);
         signInButton.setSize(SignInButton.SIZE_STANDARD);
+        mAuth = FirebaseAuth.getInstance();
         //Google api required classes to perform login
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.client_id))
                 .requestEmail()
                 .build();
         mGoogleSignInClient = GoogleSignIn.getClient(this,googleSignInOptions);
@@ -56,8 +72,9 @@ public class Login extends Activity implements View.OnClickListener{
     @Override
     protected void onStart() {//check if a user has already signed in to ScanVenture with Google.
         super.onStart();
-        GoogleSignInAccount googleSignInAccount = GoogleSignIn.getLastSignedInAccount(this);
-        if (googleSignInAccount != null) { //user has already logged in with google
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        //GoogleSignInAccount googleSignInAccount = GoogleSignIn.getLastSignedInAccount(this);
+        if (currentUser != null) { //user has already logged in with google
             startActivity(new Intent(Login.this,Start.class));
             //TODO : Additional actions to perform
         }
@@ -82,10 +99,17 @@ public class Login extends Activity implements View.OnClickListener{
 
         // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent(...);
         if (requestCode == RC_SIGN_IN) {
-            // The Task returned from this call is always completed, no need to attach
-            // a listener.
             Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            handleSignInResult(task);
+            try {
+                // Google Sign In was successful, authenticate with Firebase
+                GoogleSignInAccount account = task.getResult(ApiException.class);
+                Log.d("Google SignIn made!", "firebaseAuthWithGoogle:" + account.getId());
+                firebaseAuthWithGoogle(account.getIdToken());
+            } catch (ApiException e) {
+                // Google Sign In failed, update UI appropriately
+                Log.w("Failed to sign in!", "Google sign in failed", e);
+                // ...
+            }
         }
     }
     private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
@@ -100,7 +124,34 @@ public class Login extends Activity implements View.OnClickListener{
 
         }
     }
-    public void loginWithGoogle(android.view.View start_button){
+    private void firebaseAuthWithGoogle(String idToken) {
+        AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);
+        mAuth.signInWithCredential(credential)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Log.d("User signed in!", "signInWithCredential:success");
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            updateUI(user);
+                        } else {
+                            // If sign in fails, display a message to the user.
+                            Log.w("Failed to sign in!", "signInWithCredential:failure", task.getException());
+                            //Snackbar.make(mBinding.mainLayout, "Authentication Failed.", Snackbar.LENGTH_SHORT).show();
+                            updateUI(null);
+                        }
 
+                        // ...
+                    }
+                });
+    }
+    private void updateUI(FirebaseUser user){
+        if (user == null){
+            //LOGIN FAILED
+        }
+        else {
+            startActivity(new Intent(Login.this,Start.class));
+        }
     }
 }

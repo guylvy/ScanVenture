@@ -32,12 +32,16 @@
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\font\\baumans.ttf"
     },
     {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_start.xml"
-    },
-    {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_start.xml"
     },
     {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_info.png.flat",
