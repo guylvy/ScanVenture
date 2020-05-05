@@ -11,6 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6729c690-c9d9-425f-b764-6803f6ef8a9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -305,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588679208048</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gitignore check">
+      <created>1588679342180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588679342180</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +337,8 @@
     <MESSAGE value="Sign in with google works ok, started implementing facebook login." />
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Google sign out works ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google sign out works ok" />
+    <MESSAGE value="gitignore check" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
