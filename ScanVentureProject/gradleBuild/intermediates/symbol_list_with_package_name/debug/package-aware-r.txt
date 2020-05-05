@@ -970,6 +970,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signOutBtn
 id small
 id spacer
 id split_action_bar

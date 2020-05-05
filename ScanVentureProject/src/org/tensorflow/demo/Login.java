@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentActivity;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Debug;
 import android.os.Message;
@@ -75,7 +76,7 @@ public class Login extends Activity implements View.OnClickListener{
         FirebaseUser currentUser = mAuth.getCurrentUser();
         //GoogleSignInAccount googleSignInAccount = GoogleSignIn.getLastSignedInAccount(this);
         if (currentUser != null) { //user has already logged in with google
-            startActivity(new Intent(Login.this,Start.class));
+            startActivity(new Intent(Login.this,Settings.class));
             //TODO : Additional actions to perform
         }
     }
@@ -112,6 +113,7 @@ public class Login extends Activity implements View.OnClickListener{
             }
         }
     }
+    /*
     private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
         try {
             GoogleSignInAccount account = completedTask.getResult(ApiException.class);
@@ -124,6 +126,7 @@ public class Login extends Activity implements View.OnClickListener{
 
         }
     }
+    */
     private void firebaseAuthWithGoogle(String idToken) {
         AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);
         mAuth.signInWithCredential(credential)
@@ -151,7 +154,7 @@ public class Login extends Activity implements View.OnClickListener{
             //LOGIN FAILED
         }
         else {
-            startActivity(new Intent(Login.this,Start.class));
+            startActivity(new Intent(Login.this,Settings.class));
         }
     }
 }
