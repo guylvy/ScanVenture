@@ -19,4 +19,5 @@
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
     <string name="scanny_intro_text">Welcome to Scanventure! I\'m Scanny! Let\'s start with a Tutorial</string>
     <string name="tutorial_text">I\'m hungry! What should I eat $USER?</string>
+    <string name="hi_text">Hi $USER!</string>
 </resources>

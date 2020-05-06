@@ -1,4 +1,4 @@
-hash.tf.objectdetection
+org.tensorflow.demo
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -582,6 +582,7 @@ drawable cogs
 drawable ic_action_info
 drawable ic_launcher
 drawable icon2
+drawable icon_girl
 drawable lamp
 drawable notification_action_background
 drawable notification_bg
@@ -595,7 +596,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable number_circle
 drawable screw_driver
+drawable three_dots
 drawable tile
 font baumans
 id action0
@@ -630,6 +633,10 @@ id cancel_action
 id chains
 id checkbox
 id chronometer
+id circle_1
+id circle_2
+id circle_3
+id circle_4
 id collapseActionView
 id container
 id contentPanel
@@ -641,6 +648,9 @@ id default_activity_button
 id dimensions
 id direct
 id disableHome
+id dots_12
+id dots_23
+id dots_34
 id edit_query
 id end
 id end_padder
@@ -648,19 +658,24 @@ id expand_activities_button
 id expanded_menu
 id gone
 id groups
+id hi_text
 id home
 id homeAsUp
 id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id imageView2
 id imageView3
 id imageView4
 id info
 id invisible
 id left
+id level_1
+id level_2
+id level_3
+id level_4
+id levels_layout
 id line1
 id line3
 id listMode
@@ -686,6 +701,8 @@ id result_text
 id right
 id right_icon
 id right_side
+id scanny_icon
+id scanny_icon2
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -701,6 +718,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id setting_icon
 id shortcut
 id showCustom
 id showHome
@@ -769,6 +787,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout activity_after_stage
 layout activity_camera
+layout activity_levels
 layout activity_tutorial
 layout activity_welcome
 layout camera_connection_fragment_tracking
@@ -830,6 +849,7 @@ string activity_name_stylize
 string app_name
 string camera_error
 string description_info
+string hi_text
 string request_permission
 string scanny_intro_text
 string search_menu_title
