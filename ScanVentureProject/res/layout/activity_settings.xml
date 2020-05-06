@@ -103,15 +103,15 @@
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="479dp"
         android:fontFamily="@font/baumans"
-        android:text="Gender:"
+        android:text="Level:"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/GenderVal"
+        app:layout_constraintEnd_toStartOf="@+id/LevelVal"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/GenderVal"
+        android:id="@+id/LevelVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="138dp"
@@ -135,7 +135,7 @@
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/GenderVal"
+        app:layout_constraintBottom_toTopOf="@+id/LevelVal"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
