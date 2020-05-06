@@ -1,4 +1,4 @@
-#Tue May 05 14:43:02 IDT 2020
+#Thu May 07 00:56:51 IDT 2020
 base.0=D\:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

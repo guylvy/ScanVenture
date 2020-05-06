@@ -28,6 +28,7 @@ import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
@@ -37,6 +38,8 @@ import com.google.firebase.auth.GoogleAuthProvider;
 
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.io.Console;
 import java.io.FileDescriptor;
@@ -45,6 +48,8 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.ConsoleHandler;
 
 public class Login extends Activity implements View.OnClickListener{
+    final FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference ref = database.getReference("server/saving-data");
     private static final int RC_SIGN_IN = 1;
     SignInButton signInButton;
     private static final int SIGN_IN = 1;
@@ -56,7 +61,6 @@ public class Login extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         FirebaseApp.initializeApp(this);
         setContentView(R.layout.activity_login);
-
         //Set dimensions of Google's sign in button - Standard
         signInButton = findViewById(R.id.googleLoginBtn);
         signInButton.setSize(SignInButton.SIZE_STANDARD);
@@ -73,10 +77,13 @@ public class Login extends Activity implements View.OnClickListener{
     @Override
     protected void onStart() {//check if a user has already signed in to ScanVenture with Google.
         super.onStart();
-        FirebaseUser currentUser = mAuth.getCurrentUser();
+        GoogleSignInAccount currentUser = GoogleSignIn.getLastSignedInAccount(this);
         //GoogleSignInAccount googleSignInAccount = GoogleSignIn.getLastSignedInAccount(this);
         if (currentUser != null) { //user has already logged in with google
-            startActivity(new Intent(Login.this,Settings.class));
+            Intent goToSettings = new Intent(Login.this,Settings.class);
+            goToSettings.putExtra("currentUser",currentUser);
+            startActivity(goToSettings);
+            finish();
             //TODO : Additional actions to perform
         }
     }
@@ -113,20 +120,6 @@ public class Login extends Activity implements View.OnClickListener{
             }
         }
     }
-    /*
-    private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
-        try {
-            GoogleSignInAccount account = completedTask.getResult(ApiException.class);
-            // Signed in successfully, show authenticated UI with account details
-
-        } catch (ApiException e) {
-            // The ApiException status code indicates the detailed failure reason.
-            // Please refer to the GoogleSignInStatusCodes class reference for more information.
-            Log.w("Oops :( , something went wrong!", "signInResult:failed code=" + e.getStatusCode());
-
-        }
-    }
-    */
     private void firebaseAuthWithGoogle(String idToken) {
         AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);
         mAuth.signInWithCredential(credential)
@@ -154,7 +147,17 @@ public class Login extends Activity implements View.OnClickListener{
             //LOGIN FAILED
         }
         else {
+            //Account loggedInUser = new Account();
+            //writeAccountToFireBase(user);
             startActivity(new Intent(Login.this,Settings.class));
+            finish();
         }
+    }
+
+    private void writeAccountToFireBase(FirebaseUser user) {
+        //Create accounts section in DB
+        DatabaseReference accountsRef = ref.child("Accounts");
+        //Write user data as an Account class object
+        accountsRef.child(user.getEmail()).setValue(new Account(user.getUid(),user.getDisplayName(),0));
     }
 }
