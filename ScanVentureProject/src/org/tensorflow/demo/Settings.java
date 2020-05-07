@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInApi;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -38,19 +39,36 @@ public class Settings extends Activity {
                 .build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions);
         currentUser = GoogleSignIn.getLastSignedInAccount(this);
-        user = new Account(currentUser.getDisplayName());
+        getAccountFromLogin(); //Updates the user Account type variable with Account data from FireBaseDB
+        //user = new Account(currentUser.getDisplayName());
         TextView userName = findViewById(R.id.NameVal);
-        userName.setText("\u200F"+ user.getUsername());
+        userName.setText(user.getUsername());
+        TextView lvl = findViewById(R.id.LevelVal);
+        lvl.setText(String.valueOf(user.getLevel()));
+        lvl.setVisibility(View.VISIBLE);
         userName.setVisibility(View.VISIBLE);
     }
+
+
     public void signOut(View v){
-        mGoogleSignInClient.signOut()
-                .addOnCompleteListener(this, new OnCompleteListener<Void>() {
+        FirebaseAuth.getInstance().signOut();
+
+        // Google sign out
+        mGoogleSignInClient.signOut().addOnCompleteListener(this,
+                new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
-                        startActivity(new Intent(Settings.this,Login.class));
-                        finish();
+                        //Sign out completed!
                     }
                 });
+
+        Intent intent = new Intent(getApplicationContext(),Login.class);
+        startActivity(intent);
+        finish();
+    }
+    private void getAccountFromLogin(){
+        if (getIntent().getExtras() != null){
+            user = (Account)getIntent().getSerializableExtra("user_data");
+        }
     }
 }
