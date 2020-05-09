@@ -52,7 +52,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.ConsoleHandler;
 
 public class Login extends Activity{
-
     private static final int RC_SIGN_IN = 1;
     SignInButton signInButton;
     private static final int SIGN_IN = 1;
@@ -60,7 +59,6 @@ public class Login extends Activity{
     private FirebaseAuth mAuth;
     DatabaseReference rootref = FirebaseDatabase.getInstance().getReference();
     Account userData;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,27 +88,34 @@ public class Login extends Activity{
         GoogleSignInAccount user = GoogleSignIn.getLastSignedInAccount(this);
         if(user!=null){
             getUserDataFromDB(user);
-            Intent intent = new Intent(getApplicationContext(),Settings.class);
-            intent.putExtra("user_data",userData);
-            startActivity(intent);
         }
     }
-
+    @Override
+    public void onBackPressed(){
+        this.finish();
+    }
     private void getUserDataFromDB(final GoogleSignInAccount currentUser) {
         DatabaseReference usersRef = rootref.child("users");
         final String email = currentUser.getEmail();
         final String emailName = email.substring(0, email.indexOf('@'));
-        usersRef.child(emailName).setValue(emailName);
+        //usersRef.child(emailName).setValue(currentUser.getDisplayName());
         usersRef.child(emailName).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                userData = new Account(emailName,dataSnapshot.child("name").getValue().toString(),(int)dataSnapshot.child("level").getValue());
+                userData = new Account(emailName,dataSnapshot.child("name").getValue().toString(), (long)(dataSnapshot.child("level").getValue()));
+                Intent goTo = new Intent(getApplicationContext(),Settings.class).putExtra("user_data",userData);
+                goToNextActivity(goTo);
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
+    }
+
+    private void goToNextActivity(Intent newActivity) {
+        startActivity(newActivity);
+        finish();
     }
 
     private void signIn() {
@@ -135,7 +140,7 @@ public class Login extends Activity{
             }
         }
     }
-    private void firebaseAuthWithGoogle(final GoogleSignInAccount acct) {
+    private void firebaseAuthWithGoogle(final GoogleSignInAccount acct) { //New User
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         mAuth.signInWithCredential(credential)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -145,9 +150,7 @@ public class Login extends Activity{
                             // Sign in success, update UI with the signed-in user's information
                             FirebaseUser user = mAuth.getCurrentUser();
                             writeNewAccountToFireBase(acct);
-                            Intent intent = new Intent(getApplicationContext(),Settings.class);
-                            intent.putExtra("user_data",userData);
-                            startActivity(intent);
+                            goToNextActivity(new Intent(getApplicationContext(),Welcome.class).putExtra("user_data",userData));
                         } else {
                             Toast.makeText(Login.this, "Sorry auth failed.", Toast.LENGTH_SHORT).show();
                         }
@@ -155,19 +158,6 @@ public class Login extends Activity{
                     }
                 });
     }
-    private void updateUI(FirebaseUser user){
-        if (user == null){
-            //TODO: sign in failed handle this!
-        }
-        else {
-            //Account loggedInUser = new Account();
-            Intent goTo = new Intent(Login.this,Settings.class);
-            goTo.putExtra("user_data",userData);
-            startActivity(goTo);
-            finish();
-        }
-    }
-
     private void writeNewAccountToFireBase(GoogleSignInAccount user) {
         //Create accounts section in DB and get a ref to it
         DatabaseReference usersRef = rootref.child("users");
@@ -177,22 +167,5 @@ public class Login extends Activity{
         usersRef.child(emailName).child("name").setValue(user.getDisplayName());
         usersRef.child(emailName).child("level").setValue(0);
         userData = new Account(user.getEmail(),user.getDisplayName(),0); //only for a new user
-    }
-
-    private void checkIfLoggedIn() {
-        FirebaseAuth.AuthStateListener mAuthListener;
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                if(user!=null){
-                    Intent intent = new Intent(Login.this, Settings.class);
-                    //getUserDataFromDB(user);
-                    intent.putExtra("user_data",userData);
-                    startActivity(intent);
-                    finish();
-                }
-            }
-        };
     }
 }

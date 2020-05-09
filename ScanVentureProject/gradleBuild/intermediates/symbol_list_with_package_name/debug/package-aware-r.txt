@@ -1162,10 +1162,10 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font baumans
 id ALT
+id AuthNameHeader
+id AuthNameVal
 id CTRL
 id FUNCTION
-id FacebookIdHdr
-id FacebookIdVal
 id GenderHdr
 id LevelVal
 id META
@@ -1175,6 +1175,7 @@ id SHIFT
 id SYM
 id SoundSwitch
 id VibrationSwitch
+id WelcomeNeuUserText
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1298,6 +1299,7 @@ id line3
 id listMode
 id list_item
 id list_text_item
+id loginActivityHeader
 id masked
 id media_actions
 id message
@@ -1354,6 +1356,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id settingsBtn
 id settingsHdr
 id shortcut
 id showCustom
@@ -1411,6 +1414,7 @@ id unknown
 id unlabeled
 id up
 id useLogo
+id userNameInWelcome
 id view_offset_helper
 id visible
 id welcomeText
@@ -1466,10 +1470,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
 layout activity_camera
 layout activity_login
 layout activity_settings
 layout activity_start
+layout activity_welcome
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout camera_connection_fragment_tracking
@@ -1621,8 +1627,10 @@ string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
+string google_id_title
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
+string login_header
 string messenger_send_button_text
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
@@ -1637,6 +1645,7 @@ string search_menu_title
 string start_button
 string status_bar_notification_info_overflow
 string title_welcome
+string welcome_new_user
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

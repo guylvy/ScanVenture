@@ -32,10 +32,10 @@
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="false"
-        android:testOnly="true"
         android:theme="@style/MaterialTheme" >
-        <activity android:name="org.tensorflow.demo.Settings" >
-        </activity>
+        <activity android:name="org.tensorflow.demo.About" />
+        <activity android:name="org.tensorflow.demo.Welcome" />
+        <activity android:name="org.tensorflow.demo.Settings" />
         <activity android:name="org.tensorflow.demo.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
