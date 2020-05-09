@@ -1172,6 +1172,7 @@ id ALT
 id AuthNameHeader
 id AuthNameVal
 id CTRL
+id EndTutorialButton
 id FUNCTION
 id GenderHdr
 id LevelVal
