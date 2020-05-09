@@ -31,4 +31,9 @@ public class Welcome extends Activity {
 
 
     }
+
+    public void enterWelcome(View lolz) {
+        startActivity(new Intent(getApplicationContext(),TutorialActivity.class).putExtra("user_data",user));
+        finish();
+    }
 }

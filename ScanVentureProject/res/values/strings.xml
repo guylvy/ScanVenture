@@ -31,4 +31,6 @@
     <string name="faq_header">Frequently Asked Questions</string>
     <string name="about_us_btn_title">About Us</string>
     <string name="faq_button_title">FAQ</string>
+    <string name="hi_text">Hi $USER!</string>
+    <string name="tutorial_text">I\'m hungry! What should I eat $USER?</string>
 </resources>
