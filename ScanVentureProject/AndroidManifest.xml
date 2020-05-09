@@ -5,7 +5,7 @@
 
     <uses-sdk android:targetSdkVersion="23" />
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera" />
@@ -19,12 +19,14 @@
         android:supportsRtl="false"
         android:theme="@style/MaterialTheme"
         tools:replace="android:supportsRtl">
-        <activity android:name=".Settings">
-
-        </activity>
+        <activity android:name=".FreqQuestions"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Settings" />
         <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -32,7 +34,7 @@
         <activity android:name=".CameraActivity" />
         <activity
             android:name=".Start"
-            android:screenOrientation="fullSensor"></activity>
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>

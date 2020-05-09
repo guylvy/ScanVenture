@@ -8,21 +8,59 @@
     tools:context=".Settings">
 
     <Button
-        android:id="@+id/signOutBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/aboutUsBtn"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="245dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/costum_button"
+        android:fontFamily="@font/baumans"
+        android:text="Button"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faqButton" />
+
+    <Button
+        android:id="@+id/faqButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/costum_button"
+        android:fontFamily="@font/baumans"
+        android:text="Button"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/aboutUsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VibrationSwitch" />
+
+    <Button
+        android:id="@+id/signOutBtn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="45dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:fontFamily="@font/baumans"
         android:onClick="signOut"
         android:text="Sign Out"
+        android:textAllCaps="false"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/VibrationSwitch" />
+        app:layout_constraintTop_toBottomOf="@+id/aboutUsBtn" />
 
     <Switch
         android:id="@+id/SoundSwitch"
@@ -33,6 +71,7 @@
         android:fontFamily="@font/baumans"
         android:showText="true"
         android:text="Sound  "
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/GenderHdr" />
@@ -43,16 +82,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="135dp"
         android:layout_marginTop="13dp"
-        android:layout_marginBottom="338dp"
         android:showText="true"
         android:text="Vibration  "
+        android:textColor="@android:color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SoundSwitch" />
 
     <TextView
-        android:id="@+id/FacebookIdVal"
+        android:id="@+id/AuthNameVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="138dp"
@@ -81,18 +119,18 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/FacebookIdHdr"
+        android:id="@+id/AuthNameHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="82dp"
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="26dp"
         android:fontFamily="@font/baumans"
-        android:text="Facebook ID:"
+        android:text="@string/google_id_title"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/NameHdr"
-        app:layout_constraintEnd_toStartOf="@+id/FacebookIdVal"
+        app:layout_constraintEnd_toStartOf="@+id/AuthNameVal"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView

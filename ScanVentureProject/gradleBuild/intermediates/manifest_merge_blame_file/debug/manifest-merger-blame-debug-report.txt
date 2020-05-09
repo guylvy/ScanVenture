@@ -12,7 +12,7 @@
 9-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:6:15-44
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:8:5-83
+11-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:8:5-67
 11-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:8:22-64
 12    <uses-permission android:name="android.permission.CAMERA" />
 12-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:9:5-65
@@ -43,7 +43,7 @@
 24-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\320fe7f43e9624f02eb06395dc585386\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:26:22-107
 25
 26    <application
-26-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:14:5-36:19
+26-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:14:5-37:19
 27        android:allowBackup="true"
 27-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:15:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -58,39 +58,43 @@
 33-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:18:9-33
 34        android:supportsRtl="false"
 34-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:19:9-36
-35        android:testOnly="true"
-36        android:theme="@style/MaterialTheme" >
-36-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:9-45
-37        <activity android:name="org.tensorflow.demo.Settings" >
-37-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:9-24:20
-37-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:19-43
-38        </activity>
+35        android:theme="@style/MaterialTheme" >
+35-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:9-45
+36        <activity android:name="org.tensorflow.demo.About" />
+36-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:9-52
+36-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:19-40
+37        <activity android:name="org.tensorflow.demo.Welcome" />
+37-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:9-45
+37-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:19-42
+38        <activity android:name="org.tensorflow.demo.Settings" />
+38-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:24:9-46
+38-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:24:19-43
 39        <activity android:name="org.tensorflow.demo.Login" >
-39-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:25:9-30:20
+39-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:25:9-31:20
 39-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:25:19-40
 40            <intent-filter>
-40-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:13-29:29
+40-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:13-30:29
 41                <action android:name="android.intent.action.MAIN" />
 41-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:17-69
 41-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:25-66
 42
 43                <category android:name="android.intent.category.LAUNCHER" />
-43-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:28:17-77
-43-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:28:27-74
+43-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:17-77
+43-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:27-74
 44            </intent-filter>
 45        </activity>
 46        <activity android:name="org.tensorflow.demo.DetectorActivity" />
-46-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:31:9-54
-46-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:31:19-51
+46-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:32:9-54
+46-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:32:19-51
 47        <activity android:name="org.tensorflow.demo.CameraActivity" />
-47-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:32:9-52
-47-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:32:19-49
+47-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:33:9-52
+47-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:33:19-49
 48        <activity
-48-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:33:9-35:63
+48-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:34:9-36:54
 49            android:name="org.tensorflow.demo.Start"
-49-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:34:13-34
+49-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:35:13-34
 50            android:screenOrientation="fullSensor" />
-50-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:35:13-51
+50-->D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:36:13-51
 51        <activity
 51-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\13b326b171e5c7e194eee7d0a0d66c27\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
 52            android:name="com.facebook.FacebookActivity"

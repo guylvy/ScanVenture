@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
 MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\fc3f0a3e3486358f1749edfb18eb1bfb\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\8e23acd71fb7ad599d8036de03aff56b\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\1abeb0c9e6807b2cdb80701700564e31\jetified-facebook-android-sdk-5.15.3\AndroidManifest.xml:21:1-31:12
@@ -13,13 +13,13 @@ MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\Good Guy\.gra
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\c09bab2943318fa7786a2c739f4e070c\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\42c721548cff902dff18053fd00e3558\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\1aaca88da9b68e6c1555d11d5a5e0073\jetified-firebase-auth-19.3.1\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\b132b9302385a032b6ed778b5bbebc63\jetified-firebase-analytics-17.4.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\9b1eb7d3bdf2b320639bf3422547cc70\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\41839af911d3b8206b5c9a4efe4449a6\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\ec2eb2e20a2d4fed128f0fbf3f9e46a1\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\662a8460edd2e612e111f4c236adce48\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\41839af911d3b8206b5c9a4efe4449a6\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\36c1441808d7b98a39f6389cb00c75a7\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\6c0a50de53b0e4f038c4d19b6c61705a\jetified-firebase-iid-20.1.5\AndroidManifest.xml:17:1-47:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\c9a52d7a074e507e7694e59d75e09764\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
@@ -74,22 +74,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Good Guy\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\c14d828fce87641ba3cfa4e50db52044\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\321376d5a9d6865635f8f4f29c2bd445\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\d8ec6831d26f22bc25f69600112955ea\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:4:5-34
 		INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml
 		INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
 		INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12
 		INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:11-69
@@ -113,20 +113,20 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Good Guy
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\42c721548cff902dff18053fd00e3558\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\1aaca88da9b68e6c1555d11d5a5e0073\jetified-firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\1aaca88da9b68e6c1555d11d5a5e0073\jetified-firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\b132b9302385a032b6ed778b5bbebc63\jetified-firebase-analytics-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\b132b9302385a032b6ed778b5bbebc63\jetified-firebase-analytics-17.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\9b1eb7d3bdf2b320639bf3422547cc70\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\9b1eb7d3bdf2b320639bf3422547cc70\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\41839af911d3b8206b5c9a4efe4449a6\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\41839af911d3b8206b5c9a4efe4449a6\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\ec2eb2e20a2d4fed128f0fbf3f9e46a1\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\ec2eb2e20a2d4fed128f0fbf3f9e46a1\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\662a8460edd2e612e111f4c236adce48\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\662a8460edd2e612e111f4c236adce48\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\41839af911d3b8206b5c9a4efe4449a6\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\41839af911d3b8206b5c9a4efe4449a6\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\36c1441808d7b98a39f6389cb00c75a7\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\36c1441808d7b98a39f6389cb00c75a7\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\6c0a50de53b0e4f038c4d19b6c61705a\jetified-firebase-iid-20.1.5\AndroidManifest.xml:20:5-44
@@ -246,7 +246,7 @@ INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:6:5-47
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:6:5-47
 		INJECTED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:8:5-83
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\36c1441808d7b98a39f6389cb00c75a7\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:22:5-67
@@ -276,7 +276,7 @@ ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:12:5-70
 	android:name
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:12:19-67
 application
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:14:5-36:19
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:14:5-37:19
 MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\fc3f0a3e3486358f1749edfb18eb1bfb\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:5:5-6:19
 MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\fc3f0a3e3486358f1749edfb18eb1bfb\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\8e23acd71fb7ad599d8036de03aff56b\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -293,12 +293,12 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Good Guy
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\42c721548cff902dff18053fd00e3558\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\1aaca88da9b68e6c1555d11d5a5e0073\jetified-firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\1aaca88da9b68e6c1555d11d5a5e0073\jetified-firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\b132b9302385a032b6ed778b5bbebc63\jetified-firebase-analytics-17.4.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\b132b9302385a032b6ed778b5bbebc63\jetified-firebase-analytics-17.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\9b1eb7d3bdf2b320639bf3422547cc70\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\9b1eb7d3bdf2b320639bf3422547cc70\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\36c1441808d7b98a39f6389cb00c75a7\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:26:5-34:19
@@ -367,44 +367,52 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Good Guy\
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:20:9-45
 	tools:replace
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:21:9-44
-activity#org.tensorflow.demo.Settings
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:9-24:20
+activity#org.tensorflow.demo.About
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:9-52
 	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:19-43
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:22:19-40
+activity#org.tensorflow.demo.Welcome
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:9-45
+	android:name
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:23:19-42
+activity#org.tensorflow.demo.Settings
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:24:9-46
+	android:name
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:24:19-43
 activity#org.tensorflow.demo.Login
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:25:9-30:20
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:25:9-31:20
 	android:name
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:25:19-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:13-29:29
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
 ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:17-69
 	android:name
 		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:28:17-77
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:28:27-74
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:29:27-74
 activity#org.tensorflow.demo.DetectorActivity
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:31:9-54
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:32:9-54
 	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:31:19-51
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:32:19-51
 activity#org.tensorflow.demo.CameraActivity
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:32:9-52
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:33:9-52
 	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:32:19-49
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:33:19-49
 activity#org.tensorflow.demo.Start
-ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:33:9-35:63
+ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:34:9-36:54
 	android:screenOrientation
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:35:13-51
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:36:13-51
 	android:name
-		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:34:13-34
+		ADDED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:35:13-34
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-38:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\ScanVenture\ScanVentureProject\AndroidManifest.xml:2:1-39:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
 activity#com.facebook.FacebookActivity
 ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\13b326b171e5c7e194eee7d0a0d66c27\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
 	android:configChanges
@@ -489,6 +497,24 @@ ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Good Guy\.gradle\
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\1aaca88da9b68e6c1555d11d5a5e0073\jetified-firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\1aaca88da9b68e6c1555d11d5a5e0073\jetified-firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\36c1441808d7b98a39f6389cb00c75a7\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:23:5-79
@@ -511,24 +537,6 @@ ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gra
 		ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4f594417798d4852e7f125a50e452d41\jetified-firebase-database-19.3.0\AndroidManifest.xml:33:17-109
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\4bddd6a6c59a0864d19e2c01aaaa205e\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\36c1441808d7b98a39f6389cb00c75a7\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\Good Guy\.gradle\caches\transforms-2\files-2.1\6c0a50de53b0e4f038c4d19b6c61705a\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:5-68

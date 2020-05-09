@@ -1,47 +1,23 @@
 [
     {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon2.png.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-xxhdpi\\icon2.png"
-    },
-    {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon2.png.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-hdpi\\icon2.png"
-    },
-    {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_camera.xml.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_camera.xml"
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_about.xml"
     },
     {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_info.png.flat",
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-xhdpi\\ic_action_info.png"
     },
     {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_info.png.flat",
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-xxhdpi\\ic_action_info.png"
     },
     {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\font_baumans.ttf.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\font\\baumans.ttf"
-    },
-    {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_settings.xml"
-    },
-    {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_start.xml"
     },
     {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_info.png.flat",
@@ -60,12 +36,48 @@
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-mdpi\\background.png"
     },
     {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-mdpi_cogs.png.flat",
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-mdpi\\cogs.png"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_tile.9.png.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon2.png.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-xxhdpi\\icon2.png"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon2.png.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-hdpi\\icon2.png"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_welcome.xml.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_camera.xml.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\font_baumans.ttf.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\font\\baumans.ttf"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_list_text_item.xml.flat",
@@ -74,10 +86,6 @@
     {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_camera_connection_fragment_tracking.xml.flat",
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\camera_connection_fragment_tracking.xml"
-    },
-    {
-        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_tile.9.png.flat",
-        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-hdpi\\tile.9.png"
     },
     {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_info.png.flat",
