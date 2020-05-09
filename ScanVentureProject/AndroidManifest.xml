@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="org.tensorflow.demo">
 
     <uses-sdk android:targetSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera" />
@@ -15,21 +17,27 @@
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="false"
-        android:theme="@style/MaterialTheme">
-        <activity android:name=".WelcomeActivity"></activity>
+        android:theme="@style/MaterialTheme"
+        tools:replace="android:supportsRtl">
+        <activity android:name=".TutorialActivity"/>
         <activity android:name=".AfterStageActivity" />
-        <activity android:name=".TutorialActivity" />
-        <activity android:name=".DetectorActivity" />
-        <activity android:name=".CameraActivity" />
-        <activity
-            android:name=".LevelsActivity"
-            android:screenOrientation="fullSensor">
+        <activity android:name=".LevelsActivity" />
+        <activity android:name=".FreqQuestions" />
+        <activity android:name=".About" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DetectorActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity
+            android:name=".Start"
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>

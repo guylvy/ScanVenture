@@ -17,7 +17,20 @@
     <string name="description_info">Info</string>
     <string name="request_permission">This sample needs camera permission.</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
-    <string name="scanny_intro_text">Welcome to Scanventure! I\'m Scanny! Let\'s start with a Tutorial</string>
-    <string name="tutorial_text">I\'m hungry! What should I eat $USER?</string>
+    <string name="start_button">Start</string>
+    <string name="login_header">ScanVenture</string>
+    <string name="scanny_intro_text">Welcome to Scanventure!I\'m Scanny!</string>
+    <string name="welcome_new_user">Welcome to\nScanVenture\n</string>
+    <string name="title_welcome">Welcome</string>
+    <string name="google_id_title">Google ID:</string>
+    <string name="client_id">330523070311-36vv2957t601inna3ujleb6rj3eoed9a.apps.googleusercontent.com</string>
+    <string name="FireBaseDbName">https://scanventure.firebaseio.com/</string>
+    <string name="ariel_info">Ariel Avitbul</string>
+    <string name="guy_info">Guy Levy</string>
+    <string name="braude_info">Software engineering students at Ort Braude college</string>
+    <string name="faq_header">Frequently Asked Questions</string>
+    <string name="about_us_btn_title">About Us</string>
+    <string name="faq_button_title">FAQ</string>
     <string name="hi_text">Hi $USER!</string>
+    <string name="tutorial_text">I\'m hungry! What should I eat </string>
 </resources>

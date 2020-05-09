@@ -1,21 +1,27 @@
 package org.tensorflow.demo;
 
-public class Account {
-    private int id,level;
-    private String username;
+import java.io.Serializable;
 
-    public int getId() {
+@SuppressWarnings("serial")
+public class Account implements Serializable {
+    private long level;
+    private String username , id ;
+
+    public String getId() {
         return id;
     }
 
-    public int getLevel() {
+    public long getLevel() {
         return level;
     }
 
     public String getUsername() {
         return username;
     }
-    public Account(int id, String username, int level) {
+    public Account(String username){
+        this.username = username;
+    }
+    public Account(String id, String username, long level) {
         this.id = id;
         this.username = username;
         this.level = level;

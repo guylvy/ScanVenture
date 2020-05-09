@@ -4,7 +4,26 @@
             "outputFile": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ariel\\.gradle\\caches\\transforms-2\\files-2.1\\e57ae1dd6cc6e482f4c3fb5e18d83769\\appcompat-v7-25.4.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Ariel\\.gradle\\caches\\transforms-2\\files-2.1\\c09bab2943318fa7786a2c739f4e070c\\appcompat-1.0.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ariel\\.gradle\\caches\\transforms-2\\files-2.1\\82e4dba43c81536ce0562446858bbf83\\core-1.0.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
