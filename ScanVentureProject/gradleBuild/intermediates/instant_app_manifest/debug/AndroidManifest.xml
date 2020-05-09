@@ -33,7 +33,12 @@
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="false"
+        android:testOnly="true"
         android:theme="@style/MaterialTheme" >
+        <activity android:name="org.tensorflow.demo.TutorialActivity" />
+        <activity android:name="org.tensorflow.demo.AfterStageActivity" />
+        <activity android:name="org.tensorflow.demo.LevelsActivity" />
+        <activity android:name="org.tensorflow.demo.FreqQuestions" />
         <activity android:name="org.tensorflow.demo.About" />
         <activity android:name="org.tensorflow.demo.Welcome" />
         <activity android:name="org.tensorflow.demo.Settings" />
