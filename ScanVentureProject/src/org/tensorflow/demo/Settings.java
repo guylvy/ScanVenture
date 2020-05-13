@@ -26,6 +26,7 @@ public class Settings extends Activity implements View.OnClickListener , Switch.
     Account user;
     GoogleSignInClient mGoogleSignInClient;
     GoogleSignInAccount currentUser;
+    AudioManager am;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,8 @@ public class Settings extends Activity implements View.OnClickListener , Switch.
         getAccountFromLogin(); //Updates the user Account type variable with Account data from FireBaseDB
         //user = new Account(currentUser.getDisplayName());
         WriteAccountDetails();
+        am = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+
     }
     @Override
     public void onBackPressed(){
@@ -92,22 +95,29 @@ public class Settings extends Activity implements View.OnClickListener , Switch.
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         switch(buttonView.getId()){
             case R.id.SoundSwitch:
-                if (isChecked) {
-                    muteApp();
-                } else {
-                    unmuteApp();
-                }
+                if (isChecked) { unmuteApp();}
+                else {muteApp();}
                 break;
             case R.id.VibrationSwitch:
+                if (isChecked) { setVibrationOn();}
+                else {setVibrationOff();}
                 break;
         }
     }
 
-    private void unmuteApp() {
-        AudioManager am = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+    private void unmuteApp() {//Needed to be checked somehow
+        am.setStreamVolume(AudioManager.STREAM_MUSIC,AudioManager.ADJUST_UNMUTE,0);
+    }
+
+    private void muteApp() {//Needed to be checked somehow
         am.setStreamVolume(AudioManager.STREAM_MUSIC,AudioManager.ADJUST_MUTE,0);
     }
 
-    private void muteApp() {
+    private void setVibrationOn(){
+       //TODO: Implement device vibration enable
+    }
+
+    private void setVibrationOff(){
+        //TODO: Implement device vibration disable
     }
 }

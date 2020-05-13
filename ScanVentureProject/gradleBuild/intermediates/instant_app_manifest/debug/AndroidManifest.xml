@@ -34,6 +34,7 @@
         android:largeHeap="true"
         android:supportsRtl="false"
         android:theme="@style/MaterialTheme" >
+        <activity android:name="org.tensorflow.demo.FreqQuestions" />
         <activity android:name="org.tensorflow.demo.About" />
         <activity android:name="org.tensorflow.demo.Welcome" />
         <activity android:name="org.tensorflow.demo.Settings" />

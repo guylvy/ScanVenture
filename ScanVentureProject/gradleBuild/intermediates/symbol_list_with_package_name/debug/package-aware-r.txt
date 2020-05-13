@@ -1119,6 +1119,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable costum_button
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1176,6 +1177,8 @@ id SYM
 id SoundSwitch
 id VibrationSwitch
 id WelcomeNeuUserText
+id aboutUsBtn
+id aboutUsHeader
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1202,6 +1205,7 @@ id adjust_width
 id alertTitle
 id all
 id always
+id ariInfo
 id async
 id auto
 id automatic
@@ -1254,6 +1258,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id devTeamHeader
 id dimensions
 id direct
 id disableHome
@@ -1266,6 +1271,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id faqButton
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1293,6 +1299,7 @@ id labeled
 id large
 id largeLabel
 id left
+id levyInfo
 id light
 id line1
 id line3
@@ -1391,6 +1398,8 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
+id textView5
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1472,6 +1481,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_about
 layout activity_camera
+layout activity_freq_questions
 layout activity_login
 layout activity_settings
 layout activity_start
@@ -1566,13 +1576,16 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string about_us_btn_title
 string activity_name_classification
 string activity_name_detection
 string activity_name_speech
 string activity_name_stylize
 string app_name
 string appbar_scrolling_view_behavior
+string ariel_info
 string bottom_sheet_behavior
+string braude_info
 string camera_error
 string character_counter_content_description
 string character_counter_pattern
@@ -1622,6 +1635,8 @@ string default_web_client_id
 string description_info
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string faq_button_title
+string faq_header
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
@@ -1629,6 +1644,7 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_id_title
 string google_storage_bucket
+string guy_info
 string hide_bottom_view_on_scroll_behavior
 string login_header
 string messenger_send_button_text
