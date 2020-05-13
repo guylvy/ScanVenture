@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "D:\\ScanVenture\\ScanVentureProject\\res\\values-v11\\template-styles.xml",
+                    "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\values-v11\\template-styles.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "D:\\ScanVenture\\ScanVentureProject\\res\\values-v11\\styles.xml",
+                    "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "7,19,11",
                         "startColumns": "2,2,2",

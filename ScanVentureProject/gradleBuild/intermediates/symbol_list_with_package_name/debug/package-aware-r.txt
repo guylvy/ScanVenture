@@ -1072,6 +1072,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable apple
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
@@ -1134,6 +1135,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable icon2
+drawable icon_girl
+drawable lamp
 drawable messenger_bubble_large_blue
 drawable messenger_bubble_large_white
 drawable messenger_bubble_small_blue
@@ -1158,6 +1161,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable number_circle
+drawable screw_driver
+drawable three_dots
 drawable tile
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1229,6 +1235,10 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id circle_1
+id circle_2
+id circle_3
+id circle_4
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -1246,6 +1256,7 @@ id confirmation_code
 id container
 id content
 id contentPanel
+id continueBtn
 id coordinator
 id custom
 id customPanel
@@ -1263,6 +1274,9 @@ id dimensions
 id direct
 id disableHome
 id display_always
+id dots_12
+id dots_23
+id dots_34
 id edit_query
 id end
 id end_padder
@@ -1283,6 +1297,7 @@ id gone
 id googleLoginBtn
 id group_divider
 id groups
+id hi_text
 id home
 id homeAsUp
 id icon
@@ -1290,6 +1305,9 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView2
+id imageView3
+id imageView4
 id info
 id inline
 id invisible
@@ -1299,6 +1317,11 @@ id labeled
 id large
 id largeLabel
 id left
+id level_1
+id level_2
+id level_3
+id level_4
+id levels_layout
 id levyInfo
 id light
 id line1
@@ -1339,12 +1362,14 @@ id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
+id result_text
 id right
 id right_icon
 id right_side
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
+id scanny_icon
 id screen
 id scroll
 id scrollIndicatorDown
@@ -1363,6 +1388,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id setting_icon
 id settingsBtn
 id settingsHdr
 id shortcut
@@ -1409,6 +1435,8 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id title_text
+id title_text2
 id top
 id topPanel
 id touch_outside
@@ -1480,11 +1508,14 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_about
+layout activity_after_stage
 layout activity_camera
 layout activity_freq_questions
+layout activity_levels
 layout activity_login
 layout activity_settings
 layout activity_start
+layout activity_tutorial
 layout activity_welcome
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -1645,6 +1676,7 @@ string google_crash_reporting_api_key
 string google_id_title
 string google_storage_bucket
 string guy_info
+string hi_text
 string hide_bottom_view_on_scroll_behavior
 string login_header
 string messenger_send_button_text
@@ -1661,6 +1693,7 @@ string search_menu_title
 string start_button
 string status_bar_notification_info_overflow
 string title_welcome
+string tutorial_text
 string welcome_new_user
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

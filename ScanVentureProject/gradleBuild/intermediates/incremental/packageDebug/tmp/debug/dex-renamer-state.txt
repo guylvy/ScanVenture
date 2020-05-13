@@ -1,7 +1,7 @@
-#Wed May 13 18:53:34 IDT 2020
-base.0=D\:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Sat May 09 20:44:44 IDT 2020
+base.0=D\:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=D\:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
