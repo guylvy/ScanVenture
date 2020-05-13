@@ -8,13 +8,23 @@
     tools:context=".Welcome">
 
     <Button
-        android:id="@+id/continueBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/faqButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="326dp"
+        android:background="@drawable/costum_button"
+        android:fontFamily="@font/baumans"
         android:onClick="enterWelcome"
-        android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="456dp" />
+        android:text="@string/start_tutorial_button_title"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userNameInWelcome" />
 
     <TextView
         android:id="@+id/userNameInWelcome"

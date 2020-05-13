@@ -103,8 +103,10 @@ public class Login extends Activity{
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 userData = new Account(emailName,dataSnapshot.child("name").getValue().toString(), (long)(dataSnapshot.child("level").getValue()));
-                Intent goTo = new Intent(getApplicationContext(),Settings.class).putExtra("user_data",userData);
-                goToNextActivity(goTo);
+                if(userData.getLevel() > 0) {
+                  goToNextActivity(new Intent(getApplicationContext(),LevelsActivity.class).putExtra("user_data",userData));
+                }
+                else { goToNextActivity(new Intent(getApplicationContext(),Welcome.class).putExtra("user_data",userData));}
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {

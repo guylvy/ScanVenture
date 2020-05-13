@@ -120,4 +120,5 @@ public class Settings extends Activity implements View.OnClickListener , Switch.
     private void setVibrationOff(){
         //TODO: Implement device vibration disable
     }
+
 }

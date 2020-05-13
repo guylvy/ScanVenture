@@ -2,9 +2,10 @@ package org.tensorflow.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 
-public class FreqQuestions extends AppCompatActivity {
+public class FreqQuestions extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
