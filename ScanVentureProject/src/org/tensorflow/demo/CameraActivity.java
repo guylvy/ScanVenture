@@ -96,6 +96,7 @@ public abstract class CameraActivity extends Activity
           Intent i = new Intent(CameraActivity.this, AfterStageActivity.class);
           i.putExtra("Result", "Failure");
           startActivity(i);
+          finish();
         }
       }
     }.start();

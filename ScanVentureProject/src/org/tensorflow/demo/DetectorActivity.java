@@ -324,6 +324,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                       Intent i = new Intent(DetectorActivity.this, AfterStageActivity.class);
                       i.putExtra("Result","Success!");
                       startActivity(i);
+                      finish();
                     }
                 /*cropToFrameTransform.mapRect(location);
                 result.setLocation(location);

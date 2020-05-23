@@ -19,7 +19,7 @@
         android:supportsRtl="false"
         android:theme="@style/MaterialTheme"
         tools:replace="android:supportsRtl">
-        <activity android:name=".TutorialActivity"/>
+        <activity android:name=".LevelActivity"/>
         <activity android:name=".AfterStageActivity" />
         <activity android:name=".LevelsActivity" />
         <activity android:name=".FreqQuestions" />

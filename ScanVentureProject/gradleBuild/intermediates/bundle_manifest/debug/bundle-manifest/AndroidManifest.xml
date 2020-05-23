@@ -34,7 +34,7 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/MaterialTheme" >
-        <activity android:name="org.tensorflow.demo.TutorialActivity" />
+        <activity android:name="org.tensorflow.demo.LevelActivity" />
         <activity android:name="org.tensorflow.demo.AfterStageActivity" />
         <activity android:name="org.tensorflow.demo.LevelsActivity" />
         <activity android:name="org.tensorflow.demo.FreqQuestions" />

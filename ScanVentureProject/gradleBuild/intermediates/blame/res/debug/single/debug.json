@@ -8,12 +8,8 @@
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_costum_button.xml.flat",
-        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\costum_button.xml"
-    },
-    {
-        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_tutorial.xml.flat",
-        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\layout\\activity_tutorial.xml"
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_toothbrush.png.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\toothbrush.png"
     },
     {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
@@ -26,6 +22,10 @@
     {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon2.png.flat",
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable-xhdpi\\icon2.png"
+    },
+    {
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_washing_machine.png.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\washing_machine.png"
     },
     {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_camera.xml.flat",
@@ -48,12 +48,24 @@
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_clippers.png.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\clippers.png"
+    },
+    {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\font_baumans.ttf.flat",
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\font\\baumans.ttf"
     },
     {
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_level.xml.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\layout\\activity_level.xml"
+    },
+    {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_welcome.xml.flat",
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\raw_success_sound.mp3.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\raw\\success_sound.mp3"
     },
     {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_levels.xml.flat",
@@ -112,8 +124,16 @@
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable-xxhdpi\\icon2.png"
     },
     {
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_hair_brush.png.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\hair_brush.png"
+    },
+    {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_closet.png.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\closet.png"
     },
     {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon2.png.flat",
@@ -132,8 +152,16 @@
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\three_dots.png"
     },
     {
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_refrigerator.png.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\refrigerator.png"
+    },
+    {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_freq_questions.xml.flat",
         "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\layout\\activity_freq_questions.xml"
+    },
+    {
+        "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_custom_button.xml.flat",
+        "source": "D:\\ScanVenture_Git\\ScanVentureProject\\res\\drawable\\custom_button.xml"
     },
     {
         "merged": "D:\\ScanVenture_Git\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-mdpi_cogs.png.flat",

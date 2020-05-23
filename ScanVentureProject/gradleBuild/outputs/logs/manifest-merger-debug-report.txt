@@ -367,10 +367,10 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Ariel\.gr
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:20:9-45
 	tools:replace
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:21:9-44
-activity#org.tensorflow.demo.TutorialActivity
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:9-53
+activity#org.tensorflow.demo.LevelActivity
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:9-50
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:19-51
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:19-48
 activity#org.tensorflow.demo.AfterStageActivity
 ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:23:9-56
 	android:name

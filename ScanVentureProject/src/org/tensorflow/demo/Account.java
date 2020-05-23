@@ -1,5 +1,8 @@
 package org.tensorflow.demo;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.io.Serializable;
 
 @SuppressWarnings("serial")
@@ -25,5 +28,10 @@ public class Account implements Serializable {
         this.id = id;
         this.username = username;
         this.level = level;
+    }
+
+    public void incLevel(){
+        DatabaseReference usersRef = Funcs.DB.child("users");
+        usersRef.child(this.id).child("level").setValue(++this.level);
     }
 }

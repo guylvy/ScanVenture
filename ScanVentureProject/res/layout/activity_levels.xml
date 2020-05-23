@@ -59,7 +59,7 @@
         android:layout_marginStart="314dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="618dp"
-        android:text="@string/hi_text"
+        android:text="hi_text"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
@@ -71,41 +71,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scanny_icon" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/circle_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="38dp"
         android:layout_marginBottom="49dp"
+        android:background="#00FFFFFF"
+        android:onClick="clickLevel"
         android:src="@drawable/number_circle"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/circle_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:onClick="clickLevel"
         android:src="@drawable/number_circle"
         android:visibility="invisible"
         app:layout_constraintStart_toEndOf="@+id/dots_12"
         app:layout_constraintTop_toBottomOf="@+id/dots_23" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/circle_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginBottom="297dp"
+        android:background="#00FFFFFF"
+        android:onClick="clickLevel"
         android:src="@drawable/number_circle"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/dots_23" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/circle_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:onClick="clickLevel"
         android:src="@drawable/number_circle"
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/dots_34"

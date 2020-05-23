@@ -1077,6 +1077,8 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable border
+drawable clippers
+drawable closet
 drawable cogs
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
@@ -1120,7 +1122,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
-drawable costum_button
+drawable custom_button
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1129,6 +1131,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable hair_brush
 drawable ic_action_info
 drawable ic_launcher
 drawable ic_mtrl_chip_checked_black
@@ -1162,11 +1165,14 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable number_circle
+drawable refrigerator
 drawable screw_driver
 drawable three_dots
 drawable tile
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable toothbrush
+drawable washing_machine
 font baumans
 id ALT
 id AuthNameHeader
@@ -1182,6 +1188,7 @@ id NameVal
 id SHIFT
 id SYM
 id SoundSwitch
+id VibrationCheckBtn
 id VibrationSwitch
 id WelcomeNeuUserText
 id aboutUsBtn
@@ -1209,6 +1216,7 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id after_stage_success_image
 id alertTitle
 id all
 id always
@@ -1257,7 +1265,6 @@ id confirmation_code
 id container
 id content
 id contentPanel
-id continueBtn
 id coordinator
 id custom
 id customPanel
@@ -1306,9 +1313,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView2
-id imageView3
-id imageView4
 id info
 id inline
 id invisible
@@ -1322,6 +1326,10 @@ id level_1
 id level_2
 id level_3
 id level_4
+id level_choice1
+id level_choice3
+id level_task_text
+id level_title
 id levels_layout
 id levyInfo
 id light
@@ -1363,7 +1371,6 @@ id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
-id result_text
 id right
 id right_icon
 id right_side
@@ -1403,6 +1410,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id soundCheckBtn
 id spacer
 id split_action_bar
 id spread
@@ -1436,7 +1444,6 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id title_text
 id title_text2
 id top
 id topPanel
@@ -1512,11 +1519,11 @@ layout activity_about
 layout activity_after_stage
 layout activity_camera
 layout activity_freq_questions
+layout activity_level
 layout activity_levels
 layout activity_login
 layout activity_settings
 layout activity_start
-layout activity_tutorial
 layout activity_welcome
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -1568,7 +1575,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+raw success_sound
 string FireBaseDbName
+string SHARED_PREFS
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1677,8 +1686,15 @@ string google_crash_reporting_api_key
 string google_id_title
 string google_storage_bucket
 string guy_info
-string hi_text
 string hide_bottom_view_on_scroll_behavior
+string level_choices_0
+string level_choices_1
+string level_choices_2
+string level_choices_3
+string level_task_0
+string level_task_1
+string level_task_2
+string level_task_3
 string login_header
 string messenger_send_button_text
 string mtrl_chip_close_icon_content_description
@@ -1689,12 +1705,12 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string request_permission
-string scanny_intro_text
 string search_menu_title
 string start_button
+string start_tutorial_button_title
 string status_bar_notification_info_overflow
 string title_welcome
-string tutorial_text
+string user_data
 string welcome_new_user
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
