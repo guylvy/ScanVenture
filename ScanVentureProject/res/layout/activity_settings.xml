@@ -8,6 +8,31 @@
     tools:context=".Settings">
 
     <Button
+        android:id="@+id/soundCheckBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="28dp"
+        android:text="SoundCheck"
+        app:layout_constraintBottom_toTopOf="@+id/VibrationCheckBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SoundSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/LevelVal" />
+
+    <Button
+        android:id="@+id/VibrationCheckBtn"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="129dp"
+        android:text="VibrationCheck"
+        app:layout_constraintBottom_toTopOf="@+id/faqButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/VibrationSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/soundCheckBtn" />
+
+    <Button
         android:id="@+id/aboutUsBtn"
         android:layout_width="150dp"
         android:layout_height="30dp"

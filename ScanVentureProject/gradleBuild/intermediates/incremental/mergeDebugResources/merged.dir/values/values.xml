@@ -581,6 +581,7 @@
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="FireBaseDbName">https://scanventure.firebaseio.com/</string>
+    <string name="SHARED_PREFS">shared_prefs</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -710,6 +711,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_welcome">Welcome</string>
     <string name="tutorial_text">I\'m hungry! What should I eat $USER?</string>
+    <string name="user_data">user_data</string>
     <string name="welcome_new_user">Welcome to\nScanVenture\n</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

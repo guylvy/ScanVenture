@@ -17,7 +17,7 @@ public class Welcome extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
-        user = (Account)getIntent().getSerializableExtra("user_data");
+        user = (Account)Funcs.getFuncs().GetFromShredPrefs(getString(R.string.user_data),true,getApplicationContext());
         userNameInHeader = findViewById(R.id.userNameInWelcome);
         userNameInHeader.setText(user.getUsername());
         settingsbtn = findViewById(R.id.settingsBtn);
@@ -33,7 +33,7 @@ public class Welcome extends Activity {
     }
 
     public void enterWelcome(View lolz) {
-        startActivity(new Intent(getApplicationContext(),TutorialActivity.class).putExtra("user_data",user));
+        startActivity(new Intent(getApplicationContext(),TutorialActivity.class));
         finish();
     }
 }

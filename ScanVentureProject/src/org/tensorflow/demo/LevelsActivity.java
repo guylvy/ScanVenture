@@ -1,6 +1,7 @@
 package org.tensorflow.demo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -10,7 +11,7 @@ public class LevelsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_levels);
-        Account user = new Account("0", "UGEV", 1);
+        final Account user = new Account("0", "UGEV", 1);
         if (user.getLevel() >= 1)
             spawnImages(R.id.circle_1, R.id.level_1);
         if (user.getLevel() >= 2)
@@ -19,6 +20,12 @@ public class LevelsActivity extends Activity {
             spawnImages(R.id.circle_3,R.id.level_3,R.id.dots_23);
         if (user.getLevel() >= 4)
             spawnImages(R.id.circle_4,R.id.level_4);
+        findViewById(R.id.setting_icon).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),Settings.class).putExtra("user_data",user));
+            }
+        });
     }
 
     private void spawnImages(int circleID, int textID) {
@@ -30,4 +37,6 @@ public class LevelsActivity extends Activity {
         spawnImages(circleID, textID);
         findViewById(dotsID).setVisibility(View.VISIBLE);
     }
+
+
 }

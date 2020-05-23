@@ -36,4 +36,6 @@
     <string name="faq_button_text">FAQ</string>
     <string name="aboutUs_button_text">About Us</string>
     <string name="start_tutorial_button_title">Start Tutorial</string>
+    <string name="SHARED_PREFS">shared_prefs</string>
+    <string name="user_data">user_data</string>
 </resources>

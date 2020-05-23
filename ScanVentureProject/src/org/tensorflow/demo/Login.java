@@ -103,10 +103,11 @@ public class Login extends Activity{
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 userData = new Account(emailName,dataSnapshot.child("name").getValue().toString(), (long)(dataSnapshot.child("level").getValue()));
+                Funcs.getFuncs().SaveToSharedPrefs(userData,getString(R.string.user_data),getApplicationContext());
                 if(userData.getLevel() > 0) {
-                  goToNextActivity(new Intent(getApplicationContext(),LevelsActivity.class).putExtra("user_data",userData));
+                  goToNextActivity(new Intent(getApplicationContext(),LevelsActivity.class));
                 }
-                else { goToNextActivity(new Intent(getApplicationContext(),Welcome.class).putExtra("user_data",userData));}
+                else { goToNextActivity(new Intent(getApplicationContext(),Welcome.class));}
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
@@ -169,5 +170,7 @@ public class Login extends Activity{
         usersRef.child(emailName).child("name").setValue(user.getDisplayName());
         usersRef.child(emailName).child("level").setValue(0);
         userData = new Account(user.getEmail(),user.getDisplayName(),0); //only for a new user
+        //put userData in SharedPreferences
+        Funcs.getFuncs().SaveToSharedPrefs(userData,getString(R.string.user_data),getApplicationContext());//saves account to sharedprefs
     }
 }

@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -37,11 +38,17 @@ public class Settings extends Activity implements View.OnClickListener , Switch.
                 .build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions);
         currentUser = GoogleSignIn.getLastSignedInAccount(this);
-        getAccountFromLogin(); //Updates the user Account type variable with Account data from FireBaseDB
         //user = new Account(currentUser.getDisplayName());
-        WriteAccountDetails();
         am = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
-
+        findViewById(R.id.soundCheckBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final MediaPlayer successSoundMP = MediaPlayer.create(getApplicationContext(),R.raw.success_sound);
+                successSoundMP.start();
+            }
+        });
+        user = (Account) Funcs.getFuncs().GetFromShredPrefs(getString(R.string.user_data),true,getApplicationContext());
+        WriteAccountDetails();
     }
     @Override
     public void onBackPressed(){
@@ -72,11 +79,13 @@ public class Settings extends Activity implements View.OnClickListener , Switch.
         startActivity(intent);
         finishAffinity(); //finish() finishes only the current activity while finishAffinity() closes all parent activities.
     }
+    /*
     private void getAccountFromLogin(){
         if (getIntent().getExtras() != null){
             user = (Account)getIntent().getSerializableExtra("user_data");
         }
     }
+    */
 
     @Override
     public void onClick(View v) {

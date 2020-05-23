@@ -1181,6 +1181,7 @@ id NameVal
 id SHIFT
 id SYM
 id SoundSwitch
+id VibrationCheckBtn
 id VibrationSwitch
 id WelcomeNeuUserText
 id aboutUsBtn
@@ -1401,6 +1402,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id soundCheckBtn
 id spacer
 id split_action_bar
 id spread
@@ -1566,7 +1568,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+raw success_sound
 string FireBaseDbName
+string SHARED_PREFS
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1696,6 +1700,7 @@ string start_tutorial_button_title
 string status_bar_notification_info_overflow
 string title_welcome
 string tutorial_text
+string user_data
 string welcome_new_user
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

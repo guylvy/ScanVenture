@@ -36,6 +36,10 @@
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\drawable-xxhdpi\\ic_action_info.png"
     },
     {
+        "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\raw_success_sound.mp3.flat",
+        "source": "D:\\ScanVenture\\ScanVentureProject\\res\\raw\\success_sound.mp3"
+    },
+    {
         "merged": "D:\\ScanVenture\\ScanVentureProject\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_after_stage.xml.flat",
         "source": "D:\\ScanVenture\\ScanVentureProject\\res\\layout\\activity_after_stage.xml"
     },
