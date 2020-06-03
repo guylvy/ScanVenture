@@ -10,6 +10,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -34,10 +35,11 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/MaterialTheme" >
+        <activity android:name="org.tensorflow.demo.CongratsActivity" />
         <activity android:name="org.tensorflow.demo.LevelActivity" />
         <activity android:name="org.tensorflow.demo.AfterStageActivity" />
         <activity android:name="org.tensorflow.demo.LevelsActivity" />
-        <activity android:name="org.tensorflow.demo.FreqQuestions" />
+        <activity android:name="org.tensorflow.demo.FAQActivity" />
         <activity android:name="org.tensorflow.demo.About" />
         <activity android:name="org.tensorflow.demo.Welcome" />
         <activity android:name="org.tensorflow.demo.Settings" />

@@ -13,28 +13,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="11dp"
         android:fontFamily="@font/baumans"
         android:text="ScanVenture"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textIsSelectable="false"
         android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scanny_icon"
+        app:layout_constraintStart_toEndOf="@+id/setting_icon"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/setting_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="645dp"
+        android:layout_marginEnd="18dp"
         android:src="@drawable/cogs"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/scanny_icon"
+        app:layout_constraintEnd_toStartOf="@+id/title_text2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,33 +39,26 @@
         android:id="@+id/scanny_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="17dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="9dp"
-        app:layout_constraintBottom_toTopOf="@+id/hi_text"
+        android:layout_marginEnd="17dp"
+        android:src="@drawable/icon_girl"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/hi_text"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon_girl" />
+        app:layout_constraintStart_toEndOf="@+id/title_text2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/hi_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="314dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="618dp"
         android:text="hi_text"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scanny_icon" />
 
     <ImageButton
@@ -76,13 +66,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="38dp"
-        android:layout_marginBottom="49dp"
         android:background="#00FFFFFF"
         android:onClick="clickLevel"
         android:src="@drawable/number_circle"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dots_12" />
+
+    <TextView
+        android:id="@+id/level_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/circle_1"
+        app:layout_constraintTop_toTopOf="@+id/circle_1" />
 
     <ImageButton
         android:id="@+id/circle_2"
@@ -95,11 +98,24 @@
         app:layout_constraintStart_toEndOf="@+id/dots_12"
         app:layout_constraintTop_toBottomOf="@+id/dots_23" />
 
+    <TextView
+        android:id="@+id/level_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="9dp"
+        android:text="2"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_2"
+        app:layout_constraintStart_toStartOf="@+id/circle_2" />
+
     <ImageButton
         android:id="@+id/circle_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
         android:layout_marginBottom="297dp"
         android:background="#00FFFFFF"
         android:onClick="clickLevel"
@@ -119,78 +135,6 @@
         app:layout_constraintBottom_toTopOf="@+id/dots_34"
         app:layout_constraintEnd_toStartOf="@+id/dots_34" />
 
-    <ImageView
-        android:id="@+id/dots_12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:src="@drawable/three_dots"
-        android:visibility="invisible"
-        app:layout_constraintStart_toEndOf="@+id/level_1"
-        app:layout_constraintTop_toBottomOf="@+id/circle_2" />
-
-    <ImageView
-        android:id="@+id/dots_23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"
-        android:src="@drawable/three_dots"
-        app:layout_constraintStart_toEndOf="@+id/circle_2"
-        app:layout_constraintTop_toBottomOf="@+id/circle_3" />
-
-    <ImageView
-        android:id="@+id/dots_34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
-        android:scaleY="-1"
-        android:src="@drawable/three_dots"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/circle_3"
-        app:layout_constraintEnd_toStartOf="@+id/circle_3" />
-
-    <TextView
-        android:id="@+id/level_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="9dp"
-        android:text="1"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="@+id/circle_1"
-        app:layout_constraintTop_toTopOf="@+id/circle_1" />
-
-    <TextView
-        android:id="@+id/level_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="9dp"
-        android:text="2"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="@+id/circle_2"
-        app:layout_constraintTop_toTopOf="@+id/circle_2" />
-
-    <TextView
-        android:id="@+id/level_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="9dp"
-        android:text="3"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="@+id/circle_3"
-        app:layout_constraintTop_toTopOf="@+id/circle_3" />
-
     <TextView
         android:id="@+id/level_4"
         android:layout_width="wrap_content"
@@ -204,5 +148,47 @@
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="@+id/circle_4"
         app:layout_constraintTop_toTopOf="@+id/circle_4" />
+
+    <ImageView
+        android:id="@+id/dots_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/three_dots"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/circle_1"
+        app:layout_constraintTop_toBottomOf="@+id/circle_2" />
+
+    <ImageView
+        android:id="@+id/dots_23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/three_dots"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/circle_2"
+        app:layout_constraintTop_toBottomOf="@+id/circle_3" />
+
+    <ImageView
+        android:id="@+id/dots_34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleY="-1"
+        android:src="@drawable/three_dots"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/circle_3"
+        app:layout_constraintEnd_toStartOf="@+id/circle_3" />
+
+    <TextView
+        android:id="@+id/level_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="9dp"
+        android:text="3"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/circle_3"
+        app:layout_constraintTop_toTopOf="@+id/circle_3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

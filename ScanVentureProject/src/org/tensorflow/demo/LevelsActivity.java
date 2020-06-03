@@ -37,8 +37,7 @@ public class LevelsActivity extends Activity {
     }
 
     public void clickLevel(View view) {
-        ImageButton circle = (ImageButton)view;
-        startActivity(new Intent(getApplicationContext(),LevelActivity.class).putExtra("user_data",acc));
+        startActivity(new Intent(getApplicationContext(),LevelActivity.class).putExtra("circle_clicked",view.getId()));
     }
 
     private void spawnImages(int circleID, int textID, int dotsID) {

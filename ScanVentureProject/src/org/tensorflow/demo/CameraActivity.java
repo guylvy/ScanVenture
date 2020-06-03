@@ -78,14 +78,15 @@ public abstract class CameraActivity extends Activity
   private Runnable postInferenceCallback;
   private Runnable imageConverter;
   private Timer timer;
-  private int timeout = 10;
+  private int timeout = 30;
+  private CountDownTimer cdt;
 
   @Override
   protected void onCreate(final Bundle savedInstanceState) {
     LOGGER.d("onCreate " + this);
     super.onCreate(null);
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-    new CountDownTimer(timeout*1000,1000) {
+    cdt = new CountDownTimer(timeout*1000,1000) {
       @Override
       public void onTick(long l) {
         // Maybe announce how many seconds left? l/1000
@@ -95,11 +96,13 @@ public abstract class CameraActivity extends Activity
         if (!getIntent().getExtras().containsKey("disable_countdown")) {
           Intent i = new Intent(CameraActivity.this, AfterStageActivity.class);
           i.putExtra("Result", "Failure");
+          i.putExtra("Target",getIntent().getStringExtra("Target"));
+          i.putExtra("Level",getIntent().getIntExtra("Level",0));
           startActivity(i);
           finish();
         }
       }
-    }.start();
+    };
     setContentView(R.layout.activity_camera);
 
 
@@ -252,7 +255,7 @@ public abstract class CameraActivity extends Activity
   public synchronized void onResume() {
     LOGGER.d("onResume " + this);
     super.onResume();
-
+    cdt.start();
     handlerThread = new HandlerThread("inference");
     handlerThread.start();
     handler = new Handler(handlerThread.getLooper());
@@ -262,7 +265,6 @@ public abstract class CameraActivity extends Activity
   public synchronized void onPause() {
     // showAD();
     LOGGER.d("onPause " + this);
-
     if (!isFinishing()) {
       LOGGER.d("Requesting finish");
       finish();
@@ -276,13 +278,14 @@ public abstract class CameraActivity extends Activity
     } catch (final InterruptedException e) {
       LOGGER.e(e, "Exception!");
     }
-
+    cdt.cancel();
     super.onPause();
   }
 
   @Override
   public synchronized void onStop() {
     LOGGER.d("onStop " + this);
+    cdt.cancel();
     super.onStop();
   }
 

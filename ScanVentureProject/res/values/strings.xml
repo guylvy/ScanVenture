@@ -33,15 +33,17 @@
     <string name="level_task_0">I\'m hungry! What should I eat</string>
     <string name="level_task_1">Mom asked me to put the milk back to where it belongs, where should I put it</string>
     <string name="level_task_2">I just woke up, I need to brush my teeth. What should I use</string>
-    <string name="level_task_3">Task 4</string>
-    <string name="level_task_4">Task 4</string>
+    <string name="level_task_3">I always wanted to see a cat, can you find a cat</string>
+    <string name="level_task_4">It\'s raining outside, I don\'t want to get wet. What should I use</string>
     <!-- First choice = correct choice -->
     <string name="level_choices_0">apple lamp screw_driver</string>
     <string name="level_choices_1">refrigerator washing_machine closet</string>
     <string name="level_choices_2">toothbrush hair_brush clippers</string>
-    <string name="level_choices_3">apple lamp screw_driver</string>
-    <string name="level_choices_4">apple lamp screw_driver</string>
+    <string name="level_choices_3">cat horse umbrella</string>
+    <string name="level_choices_4">umbrella toothbrush orange</string>
     <string name="start_tutorial_button_title">Start Tutorial</string>
     <string name="SHARED_PREFS">shared_prefs</string>
     <string name="user_data">user_data</string>
+    <string name="faq_questions"><font color='#00FF00'>Q:</font> What is the capture time out?\n<font color='#FF0000'>A:</font> 30 seconds\n\n<font color='#00FF00'>Q:</font> Where is the sound and vibration control?\n<font color='#FF0000'>A:</font> Settings (Cogs icon)\n\n<font color='#00FF00'>Q:</font> What happens when I finish the game?\n<font color='#FF0000'>A:</font> You can start over!\n\n<font color='#00FF00'>Q:</font> Is this application marked safe for children?\n<font color='#FF0000'>A:</font> Yes.</string>
+    <string name="congrats_text">Congratulations! You have finished the game, I am so proud of you! Would you like to start over?</string>
 </resources>

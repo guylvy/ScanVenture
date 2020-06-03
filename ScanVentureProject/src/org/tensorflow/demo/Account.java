@@ -14,6 +14,12 @@ public class Account implements Serializable {
         return id;
     }
 
+    public void setLevel(long level) {
+        DatabaseReference usersRef = Funcs.DB.child("users");
+        usersRef.child(this.id).child("level").setValue(level);
+        this.level = level;
+    };
+
     public long getLevel() {
         return level;
     }
@@ -31,7 +37,6 @@ public class Account implements Serializable {
     }
 
     public void incLevel(){
-        DatabaseReference usersRef = Funcs.DB.child("users");
-        usersRef.child(this.id).child("level").setValue(++this.level);
+        setLevel(this.level+1);
     }
 }

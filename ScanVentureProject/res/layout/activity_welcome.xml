@@ -10,10 +10,8 @@
     <Button
         android:id="@+id/faqButton"
         android:layout_width="150dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="147dp"
-        android:layout_marginTop="181dp"
-        android:layout_marginEnd="114dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="118dp"
         android:layout_marginBottom="326dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/baumans"
@@ -23,56 +21,34 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userNameInWelcome" />
+        app:layout_constraintTop_toBottomOf="@+id/welcome_title" />
 
     <TextView
-        android:id="@+id/userNameInWelcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="143dp"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="522dp"
-        android:fontFamily="@font/baumans"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/WelcomeNeuUserText"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/WelcomeNeuUserText"
-        android:layout_width="201dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginBottom="557dp"
+        android:id="@+id/welcome_title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="116dp"
         android:fontFamily="@font/baumans"
         android:text="@string/welcome_new_user"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/faqButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/settingsBtn"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395" />
+        app:layout_constraintStart_toEndOf="@+id/setting_icon"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@+id/settingsBtn"
+    <ImageButton
+        android:id="@+id/setting_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="341dp"
-        android:layout_marginBottom="661dp"
-        android:src="@drawable/cogs"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-    </androidx.appcompat.widget.AppCompatImageButton>
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/cogs"
+        app:layout_constraintEnd_toStartOf="@+id/welcome_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

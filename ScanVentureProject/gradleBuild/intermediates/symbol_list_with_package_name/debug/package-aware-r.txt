@@ -1077,6 +1077,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable border
+drawable cat
 drawable clippers
 drawable closet
 drawable cogs
@@ -1132,6 +1133,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable hair_brush
+drawable horse
 drawable ic_action_info
 drawable ic_launcher
 drawable ic_mtrl_chip_checked_black
@@ -1165,6 +1167,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable number_circle
+drawable orange
 drawable refrigerator
 drawable screw_driver
 drawable three_dots
@@ -1172,6 +1175,7 @@ drawable tile
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable toothbrush
+drawable umbrella
 drawable washing_machine
 font baumans
 id ALT
@@ -1188,9 +1192,7 @@ id NameVal
 id SHIFT
 id SYM
 id SoundSwitch
-id VibrationCheckBtn
 id VibrationSwitch
-id WelcomeNeuUserText
 id aboutUsBtn
 id aboutUsHeader
 id action0
@@ -1294,6 +1296,8 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id faqButton
+id faq_text
+id faq_title
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1397,7 +1401,6 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id setting_icon
-id settingsBtn
 id settingsHdr
 id shortcut
 id showCustom
@@ -1410,7 +1413,6 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
-id soundCheckBtn
 id spacer
 id split_action_bar
 id spread
@@ -1433,7 +1435,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView5
 id text_input_password_toggle
 id textinput_counter
@@ -1459,10 +1460,10 @@ id unknown
 id unlabeled
 id up
 id useLogo
-id userNameInWelcome
 id view_offset_helper
 id visible
 id welcomeText
+id welcome_title
 id wide
 id withText
 id wrap
@@ -1518,7 +1519,8 @@ layout abc_tooltip
 layout activity_about
 layout activity_after_stage
 layout activity_camera
-layout activity_freq_questions
+layout activity_congrats
+layout activity_faq
 layout activity_level
 layout activity_levels
 layout activity_login
@@ -1672,12 +1674,14 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string congrats_text
 string default_web_client_id
 string description_info
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string faq_button_title
 string faq_header
+string faq_questions
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
@@ -1691,10 +1695,12 @@ string level_choices_0
 string level_choices_1
 string level_choices_2
 string level_choices_3
+string level_choices_4
 string level_task_0
 string level_task_1
 string level_task_2
 string level_task_3
+string level_task_4
 string login_header
 string messenger_send_button_text
 string mtrl_chip_close_icon_content_description

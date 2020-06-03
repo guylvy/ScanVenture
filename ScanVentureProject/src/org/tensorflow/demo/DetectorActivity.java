@@ -323,6 +323,8 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                       getIntent().putExtra("disable_countdown",true);
                       Intent i = new Intent(DetectorActivity.this, AfterStageActivity.class);
                       i.putExtra("Result","Success!");
+                      i.putExtra("Target",getIntent().getStringExtra("Target"));
+                      i.putExtra("Level",getIntent().getIntExtra("Level",0));
                       startActivity(i);
                       finish();
                     }

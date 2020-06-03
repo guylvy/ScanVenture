@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
 MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\fc3f0a3e3486358f1749edfb18eb1bfb\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\8e23acd71fb7ad599d8036de03aff56b\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\1abeb0c9e6807b2cdb80701700564e31\jetified-facebook-android-sdk-5.15.3\AndroidManifest.xml:21:1-31:12
@@ -74,22 +74,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ariel\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\c14d828fce87641ba3cfa4e50db52044\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\321376d5a9d6865635f8f4f29c2bd445\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\cf40f97c678cc118c07e7e2423887a18\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:4:5-34
 		INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml
 		INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
 		INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12
 		INJECTED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:11-69
@@ -267,6 +267,10 @@ uses-permission#android.permission.CAMERA
 ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:9:5-65
 	android:name
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:10:22-63
 uses-feature#android.hardware.camera
 ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:11:5-60
 	android:name
@@ -276,7 +280,7 @@ ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:12:5-70
 	android:name
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:12:19-67
 application
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:14:5-41:19
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:14:5-42:19
 MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\fc3f0a3e3486358f1749edfb18eb1bfb\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:5:5-6:19
 MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\fc3f0a3e3486358f1749edfb18eb1bfb\jetified-tensorflow-android-1.13.1\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\8e23acd71fb7ad599d8036de03aff56b\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -367,68 +371,72 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Ariel\.gr
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:20:9-45
 	tools:replace
 		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:21:9-44
+activity#org.tensorflow.demo.CongratsActivity
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:19-51
 activity#org.tensorflow.demo.LevelActivity
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:9-50
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:23:9-51
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:22:19-48
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:23:19-48
 activity#org.tensorflow.demo.AfterStageActivity
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:23:9-56
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:24:9-56
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:23:19-53
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:24:19-53
 activity#org.tensorflow.demo.LevelsActivity
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:24:9-52
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:25:9-52
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:24:19-49
-activity#org.tensorflow.demo.FreqQuestions
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:25:9-51
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:25:19-49
+activity#org.tensorflow.demo.FAQActivity
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:26:9-49
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:25:19-48
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:26:19-46
 activity#org.tensorflow.demo.About
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:26:9-43
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:27:9-43
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:26:19-40
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:27:19-40
 activity#org.tensorflow.demo.Welcome
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:27:9-45
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:28:9-45
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:27:19-42
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:28:19-42
 activity#org.tensorflow.demo.Settings
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:28:9-46
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:29:9-46
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:28:19-43
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:29:19-43
 activity#org.tensorflow.demo.Login
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:29:9-35:20
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:30:9-36:20
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:29:19-40
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:30:19-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:30:13-34:29
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:31:17-69
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:31:25-66
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:33:17-77
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:33:27-74
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:34:27-74
 activity#org.tensorflow.demo.DetectorActivity
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:36:9-54
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:37:9-54
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:36:19-51
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:37:19-51
 activity#org.tensorflow.demo.CameraActivity
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:37:9-52
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:38:9-52
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:37:19-49
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:38:19-49
 activity#org.tensorflow.demo.Start
-ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:38:9-40:54
+ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:39:9-41:54
 	android:screenOrientation
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:40:13-51
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:41:13-51
 	android:name
-		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:39:13-34
+		ADDED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:40:13-34
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-43:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\ScanVenture_Git\ScanVentureProject\AndroidManifest.xml:2:1-44:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
 activity#com.facebook.FacebookActivity
 ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\Ariel\.gradle\caches\transforms-2\files-2.1\625c77a52b564be741a5b65f5587bf3d\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
 	android:configChanges
